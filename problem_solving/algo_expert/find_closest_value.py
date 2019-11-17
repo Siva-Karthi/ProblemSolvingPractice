@@ -56,6 +56,9 @@
 
 # After explanation
 import math
+
+# Average : O(Log(n)) time | O(1) space
+# Worst : O(n) time | O(1) space
 def findClosestValueInBst(tree, target):
     root = tree
     closer = root.value
@@ -72,3 +75,10 @@ def findClosestValueInBst(tree, target):
         elif root.value == target:
             break
     return closer
+
+# note recursive is
+# Average : O(Log(n)) time |  O(Log(n)) space
+# Worst : O(n) time | O(n) space . but I'll say thats max recursion depth exceeded. but how do you handle ?
+# https://www.geeksforgeeks.org/python-handling-recursion-limit/ # set increased recursion limit where as defaujlt is 10^4
+# dynamic programming ? memozation
+
