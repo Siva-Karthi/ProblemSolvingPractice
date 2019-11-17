@@ -11,8 +11,9 @@ from ..binary_search_tree import binary_search2
 #      my_arr = []
 #      assert binary_search2(item = my_item, arr=my_arr,L = 0,R  =2) == -1
 
-def test_not_negative_index():
-    my_item = 2
-    my_arr = [-3,-2,0,2,3]
-    res = binary_search2(item=my_item, arr=my_arr,L = 0,R  =2)
-    assert res == 3
+# def test_not_negative_index():
+#     my_item = 2
+#     my_arr = [-3,-2,0,2,3]
+#     res = binary_search2(item=my_item, arr=my_arr,L = 0,R  =2)
+#     assert res == 3
+

@@ -71,3 +71,25 @@ def binary_search2(item, arr, L,R) -> int:
 
 arr = [1,3,5]
 print(arr.index(5))
+
+# -------------------------------------------------------------------------------------------------------------------- #
+class Node:
+    def __init__(self, val):
+        self.left = None
+        self.right = None
+        self.value = val
+
+def binary_insert(root, node):
+    if root is None:
+        root = node
+    else:
+        if root.value > node.value:
+            if root.left is None:
+                root.left = node
+            else:
+                binary_insert(root.left, node)
+        else:
+            if root.right is None:
+                root.right = node
+            else:
+                binary_insert(root.right, node)
