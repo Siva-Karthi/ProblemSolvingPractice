@@ -46,3 +46,4 @@ def test_dfs_simple_positive():
     A.depthFirstSearch(dfs_path)
     print("dfs_path", dfs_path)
     assert dfs_path == ["A", "B", "E", "F", "H", "I", "C", "D", "G", "J"]
+
