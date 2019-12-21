@@ -1,2 +1,4 @@
 .pytest*
 .idea
+.pytest_cache
+problem_solving/.idea
