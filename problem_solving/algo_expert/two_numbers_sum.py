@@ -155,6 +155,6 @@ def twoNumberSum(array, targetSum):
 
 
 if __name__ == '__main__':
-    arr = [1,2,4,5]
-    s = 30
+    arr = [1, 2, 4, 5]
+    s = 3
     print(twoNumberSum(arr, s))
