@@ -1,0 +1,9 @@
+title: GoogleKickStart
+language: English
+summary: |-
+  Python course.
+  Created: May 1, 2020, 2:54:24 PM.
+programming_language: Python
+environment: unittest
+content:
+- google_kick_start_practice

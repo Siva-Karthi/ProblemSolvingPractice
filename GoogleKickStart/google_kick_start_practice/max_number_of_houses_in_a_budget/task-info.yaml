@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: max_number_of_houses_in_a_budget.py
+  visible: true

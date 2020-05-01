@@ -5,11 +5,13 @@ from collections import OrderedDict
 def nth_non_repeating_char(string, pos=1):
     # normal dict also will work in pythoon3.7, for safe side using OrderedDict
     my_dict = OrderedDict()
+    index = 0
     for char in string:
         if char in my_dict:
             my_dict.pop(char)
         else:
-            my_dict[char] = 1
+            my_dict[char] = index
+        index +=1
 
     # optimize this since O(n) and TypeError: 'odict_keys' object is not subscriptable to do my_dict.keys()[n] (then need to handle index error)
     i = 1
