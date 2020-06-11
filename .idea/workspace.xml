@@ -2,159 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructures/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructures/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/hard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/hard/reverse_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailycoding/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailycoding/todo.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1386914180">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.61" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Pipfile" value="2" />
-          <entry key="gitignore" value="2" />
-          <entry key="py" value="16" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="16" />
-          <entry key="TOML" value="2" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="156" />
-          <entry key="dummy" value="18" />
-          <entry key="gitignore" value="15" />
-          <entry key="py" value="4287" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="4443" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trees/binary_search_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/two_numbers_sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
-              <folding>
-                <marker date="1572886534837" expanded="true" signature="3568:3917" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trees/tests/test_trees.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <marker date="1574004308193" expanded="true" signature="74:81" ph="..." />
-                <marker date="1574004308193" expanded="true" signature="74:94" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/tests/test_find_closest_value.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-                <marker date="1574004551843" expanded="true" signature="139:143" ph="..." />
-                <marker date="1574004551843" expanded="true" signature="139:144" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Trees/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -163,105 +25,102 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>le</find>
-      <find>print</find>
-      <find>es = binary_search2(item=my_item, arr=my_arr)</find>
-      <find />
-      <find>twoNumberSum</find>
-      <find>l_child</find>
-      <find>test_not_negative_index</find>
-      <find>r_child</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>right</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="$PROJECT_DIR$/Trees/BinarySearchTree.py" />
-        <option value="$PROJECT_DIR$/Trees/__init__.py" />
-        <option value="$PROJECT_DIR$/Trees/tests.py" />
-        <option value="$PROJECT_DIR$/Trees/tests/__init__.py" />
-        <option value="$PROJECT_DIR$/algorithms/searching/linear_search.py" />
-        <option value="$PROJECT_DIR$/problem_solving/algo_expert/two_numbers_sum.py" />
-        <option value="$PROJECT_DIR$/problem_solving/algo_expert/tests/__init__.py" />
-        <option value="$PROJECT_DIR$/Traversals/__init__.py" />
-        <option value="$PROJECT_DIR$/Trees/binary_search_tree.py" />
-        <option value="$PROJECT_DIR$/Trees/tests/test_trees.py" />
-        <option value="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_find_closest_value.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" />
+        <option value="Siva S &lt;sivasubramani.612@gmail.com&gt;" />
+        <option value="Siva subramani &lt;sivasubramani612@gmail.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="24" />
-    <option name="width" value="1857" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1VHtIxV3B0GZp0QMUyLwltvpkCV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="problem_solving" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="problem_solving" type="462c0819:PsiDirectoryNode" />
-              <item name="algo_expert" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/siva/DataStructures/.pytest_cache/.gitignore&#10;test&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py:&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Fynd/POC" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="test_find_closest_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_reverse_linked_list">
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/algo_expert" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/algo_expert/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nth_non_repeating_char_in_a_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heard/nth_non_repeating_char_in_a_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="overlapping_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/daily_coding_problem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/daily_coding_problem/overlapping_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_reverse_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_find_closest_value.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,11 +141,75 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="[Local] problem_solving.algo_expert.binary_search.binarySearch" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" value="us-east-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="problem_solving.algo_expert.binary_search.binarySearch" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="runtime" value="python3.7" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for problem_solving" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../.local/share/virtualenvs/ProblemSolvingPractice-7MJAmHO2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;problem_solving&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
+      <item itemvalue="Python.overlapping_classes" />
+      <item itemvalue="Python.binary_search" />
+      <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
+      <item itemvalue="Python.test_reverse_linked_list" />
+      <item itemvalue="Python tests.pytest for problem_solving" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_find_closest_value" />
+        <item itemvalue="Python.test_reverse_linked_list" />
+        <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
+        <item itemvalue="Python.binary_search" />
+        <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
+        <item itemvalue="Python.overlapping_classes" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -299,31 +222,116 @@
       <option name="presentableId" value="Default" />
       <updated>1568981548189</updated>
     </task>
+    <task id="LOCAL-00001" summary="practiced DFS">
+      <created>1576925576866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576925576866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated gitignore">
+      <created>1576925659243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576925659243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated .gitignore">
+      <created>1576925734257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576925734257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="practiced DFS">
+      <created>1576925834547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576925834547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="practiced product sum problem">
+      <created>1577891426354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577891426354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="practiced find largest 3 integers&#10;Binary Search is WIP">
+      <created>1579191161964</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579191161964</updated>
+    </task>
+    <task id="LOCAL-00007" summary="practiced palindrome and branch_sums">
+      <created>1579880912186</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579880912186</updated>
+    </task>
+    <task id="LOCAL-00008" summary="practiced DFS">
+      <created>1580017766352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580017766352</updated>
+    </task>
+    <task id="LOCAL-00009" summary="practiced closest pairs">
+      <created>1580088588181</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580088588181</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated closest pair question">
+      <created>1580088781193</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580088781193</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added circleci">
+      <created>1580089424954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580089424954</updated>
+    </task>
+    <task id="LOCAL-00012" summary="practiced moving element to the end in the array">
+      <created>1580139221216</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580139221216</updated>
+    </task>
+    <task id="LOCAL-00013" summary="practiced nth non repeating char from a sting">
+      <created>1581087753837</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581087753837</updated>
+    </task>
+    <task id="LOCAL-00014" summary="practiced nth non repeating char from a sting">
+      <created>1581088568616</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581088568616</updated>
+    </task>
+    <task id="LOCAL-00015" summary="practiced nth non repeating char from a sting">
+      <created>1584704806754</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584704806754</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="63" y="-4" width="1857" height="1084" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15049073" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32975295" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2943072" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.41353384" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -331,149 +339,74 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="updated gitignore" />
+    <MESSAGE value="updated .gitignore" />
+    <MESSAGE value="practiced product sum problem" />
+    <MESSAGE value="practiced find largest 3 integers&#10;Binary Search is WIP" />
+    <MESSAGE value="practiced palindrome and branch_sums" />
+    <MESSAGE value="practiced DFS" />
+    <MESSAGE value="practiced closest pairs" />
+    <MESSAGE value="updated closest pair question" />
+    <MESSAGE value="added circleci" />
+    <MESSAGE value="practiced moving element to the end in the array" />
+    <MESSAGE value="practiced nth non repeating char from a sting" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced nth non repeating char from a sting" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Trees/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1704424964/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54525">
-          <caret line="3635" column="12" selection-start-line="3635" selection-start-column="12" selection-end-line="3635" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/searching/linear_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_solving/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Traversals/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/tests/test_trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <marker date="1574004308193" expanded="true" signature="74:81" ph="..." />
-            <marker date="1574004308193" expanded="true" signature="74:94" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/tests/test_find_closest_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <marker date="1574004551843" expanded="true" signature="139:143" ph="..." />
-            <marker date="1574004551843" expanded="true" signature="139:144" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/binary_search_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/two_numbers_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
-          <folding>
-            <marker date="1572886534837" expanded="true" signature="3568:3917" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="600" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1584704806545">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="600" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1584704806545" />
+    <state x="102" y="123" width="1719" height="860" key="DiffContextDialog" timestamp="1591890712202">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="100" y="98" width="1720" height="882" key="DiffContextDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772307374" />
+    <state x="102" y="123" width="1719" height="860" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591890712202" />
+    <state width="1805" height="341" key="GridCell.Tab.0.bottom" timestamp="1591549990050">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="341" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990050" />
+    <state width="1805" height="341" key="GridCell.Tab.0.center" timestamp="1591549990049">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="341" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
+    <state width="1805" height="341" key="GridCell.Tab.0.left" timestamp="1591549990048">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="341" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990048" />
+    <state width="1805" height="341" key="GridCell.Tab.0.right" timestamp="1591549990049">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1805" height="341" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
+    <state x="449" y="174" key="SettingsEditor" timestamp="1584772385140">
+      <screen x="67" y="0" width="1853" height="1080" />
+    </state>
+    <state x="449" y="174" key="SettingsEditor/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772385140" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1591757734836">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="649" y="362" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772091585" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591757734836" />
+    <state x="642" y="264" width="704" height="576" key="find.popup" timestamp="1591549965712">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="642" y="264" width="704" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591549965712" />
+    <state x="658" y="198" width="672" height="676" key="search.everywhere.popup" timestamp="1591890665740">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="658" y="198" width="672" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591890665740" />
   </component>
 </project>
