@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datastructures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/hard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/hard/reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Books/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/articluation_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructures/grah.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailycoding/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailycoding/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/algo_expert/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/algo_expert/dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_dfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584704806754</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="practiced reverse linked list">
+      <created>1591890754034</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591890754034</updated>
+    </task>
+    <task id="LOCAL-00017" summary="practiced reverse linked list">
+      <created>1591890777039</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591890777039</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -361,22 +376,26 @@
     <MESSAGE value="added circleci" />
     <MESSAGE value="practiced moving element to the end in the array" />
     <MESSAGE value="practiced nth non repeating char from a sting" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced nth non repeating char from a sting" />
+    <MESSAGE value="practiced reverse linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced reverse linked list" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1591890753761">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1599397902059">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="600" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1584704806545" />
-    <state x="601" y="149" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1591890753761" />
-    <state x="102" y="123" width="1719" height="860" key="DiffContextDialog" timestamp="1591890712202">
-      <screen x="69" y="27" width="1851" height="1053" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1599397902059" />
+    <state x="34" y="123" width="1784" height="860" key="DiffContextDialog" timestamp="1599291010066">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="100" y="98" width="1720" height="882" key="DiffContextDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772307374" />
+    <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
     <state x="102" y="123" width="1719" height="860" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591890712202" />
+    <state x="825" y="468" key="Github.Dialog.Accounts.Choose" timestamp="1591890789312">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="825" y="468" key="Github.Dialog.Accounts.Choose/69.27.1851.1053@69.27.1851.1053" timestamp="1591890789312" />
     <state width="1805" height="341" key="GridCell.Tab.0.bottom" timestamp="1591549990050">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -393,26 +412,40 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state width="1805" height="341" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
-    <state x="449" y="174" key="SettingsEditor" timestamp="1584772385140">
-      <screen x="67" y="0" width="1853" height="1080" />
-    </state>
-    <state x="449" y="174" key="SettingsEditor/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772385140" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591890756216">
+    <state width="593" height="498" key="SwitcherDM" timestamp="1599388605922">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1591890756216" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1591757734836">
+    <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591890780201">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="649" y="362" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772091585" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591757734836" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1591890780201" />
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384565044" />
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1599384516724">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384516724" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1599397823440">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599361672562" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1599397823440" />
+    <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599385841490">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599385841490" />
     <state x="642" y="264" width="704" height="576" key="find.popup" timestamp="1591549965712">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="642" y="264" width="704" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591549965712" />
-    <state x="658" y="198" width="672" height="676" key="search.everywhere.popup" timestamp="1591890665740">
+    <state x="658" y="198" width="673" height="676" key="search.everywhere.popup" timestamp="1599389839668">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
+    <state x="611" y="198" width="698" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599362062356" />
+    <state x="658" y="198" width="673" height="676" key="search.everywhere.popup/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599389839668" />
     <state x="658" y="198" width="672" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591890665740" />
   </component>
 </project>

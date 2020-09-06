@@ -5,17 +5,10 @@ simple tree-like structure. Implement the depthFirstSearch method on the Node cl
 traverse the tree using the Depth-first Search approach(specifically navigating form left to right), stores all the
 Node's names in the input array, and returns it.
 """
+from datastructures.grah import Vertex
 
 
-class Node:
-    def __init__(self, name):
-        self.children = []
-        self.name = name
-
-    def addChild(self, name):
-        self.children.append(Node(name))
-        return self
-
+class Node(Vertex):
     def depthFirstSearch(self, array):
         childs = self.children[::-1]  # gonna use list as a stack
         array.append(self.name)
