@@ -155,28 +155,31 @@ def dfs_connected_undirected(start):
 # output =
 #
 # """
-# visited = {str(i): False for i in range(5)}
-# dfn = {str(i): -1 for i in range(5)}
-# low = {str(i): -1 for i in range(5)}
-# def dfn_and_low(start, parent, idx = 0):
-#     """
-#     dfn[i] just num++
-#     low = min
-#
-#     """
-#     print(start)
-#     visited[start] = True
-#
-#     dfn[start] = idx+1
-#     low[start] = idx+1
-#
-#     for next in graph[start]:
-#         if not visited[next]:
-#             dfn_and_low(next,start,idx+1)
-#             low[start] = min(low[start], low[next])
-#         else:
-#             if next != parent:
-#                 low[start] = min(low[start], dfn[next])
+
+visited = {str(i): False for i in range(5)}
+dfn = {str(i): -1 for i in range(5)}
+low = {str(i): -1 for i in range(5)}
+
+
+def dfn_and_low(start, parent, idx=-1):
+    """
+    dfn[i] just num++
+    low = min
+    """
+    print(start)
+    visited[start] = True
+
+    dfn[start] = idx + 1
+    low[start] = idx + 1
+
+    for next in graph[start]:
+        if not visited[next]:
+            dfn_and_low(next, start, idx + 1)
+            low[start] = min(low[start], low[next])
+        else:
+            if next != parent:
+                low[start] = min(low[start], dfn[next])
+
 
 if __name__ == '__main__':
     # theory
@@ -186,8 +189,8 @@ if __name__ == '__main__':
     # time ->O(v+e)
     # space -> O(e) # explain how
 
-    arr = dfs_recursive(A)
-    print(arr)
+    # arr = dfs_recursive(A)
+    # print(arr)
     # arr = bfs_recursive(A)
     # print(arr)
     # arr = bfs(A)
@@ -197,14 +200,18 @@ if __name__ == '__main__':
     # dfs_connected_undirected('0')
     # ***
 
-    #
-    # Why this class - value added purpose for this group
-    # I have started this and I don't want waste your time and go empty handed
-    #
-    # Take aways
-    # Basic idea on graph
-    # whats next?
-    # references and relevant graph problems to practice
+    dfn_and_low('0', '-1')
+    print(dfn)
+    print(low)
+
+#
+# Why this class - value added purpose for this group
+# I have started this and I don't want waste your time and go empty handed
+#
+# Take aways
+# Basic idea on graph
+# whats next?
+# references and relevant graph problems to practice
 
 # process and plan to prepare for the interview on FANG(experimental and not proved)
 
