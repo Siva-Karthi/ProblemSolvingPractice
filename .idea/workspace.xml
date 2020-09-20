@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/connected_components.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/articluation_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/articluation_point.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599397922537</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="took BFS session">
+      <created>1599994280399</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599994280399</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -380,49 +386,33 @@
     <MESSAGE value="practiced nth non repeating char from a sting" />
     <MESSAGE value="practiced reverse linked list" />
     <MESSAGE value="took DFS and BFS session" />
-    <option name="LAST_COMMIT_MESSAGE" value="took DFS and BFS session" />
+    <MESSAGE value="took BFS session" />
+    <option name="LAST_COMMIT_MESSAGE" value="took BFS session" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1599397922187">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1599994279721">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1599397922187" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1599994279721" />
     <state x="34" y="123" width="1784" height="860" key="DiffContextDialog" timestamp="1599291010066">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
-    <state x="102" y="123" width="1719" height="860" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591890712202" />
     <state x="825" y="468" key="Github.Dialog.Accounts.Choose" timestamp="1599397942970">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="825" y="468" key="Github.Dialog.Accounts.Choose/69.27.1851.1053@69.27.1851.1053" timestamp="1599397942970" />
-    <state width="1805" height="341" key="GridCell.Tab.0.bottom" timestamp="1591549990050">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990050" />
-    <state width="1805" height="341" key="GridCell.Tab.0.center" timestamp="1591549990049">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
-    <state width="1805" height="341" key="GridCell.Tab.0.left" timestamp="1591549990048">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990048" />
-    <state width="1805" height="341" key="GridCell.Tab.0.right" timestamp="1591549990049">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
     <state width="593" height="498" key="SwitcherDM" timestamp="1599388605922">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599397931965">
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599994282346">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1599397931965" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1599994282346" />
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -431,12 +421,12 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384516724" />
-    <state x="2523" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1599460314459">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1600596082561">
+      <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599361672562" />
+    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1600059271971" />
     <state x="2523" y="362" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599460314459" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1599397823440" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1600596082561" />
     <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599385841490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -445,13 +435,11 @@
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="1189" y="264" width="1461" height="576" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400425742" />
-    <state x="642" y="264" width="704" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591549965712" />
     <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup" timestamp="1599400886402">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400886402" />
     <state x="611" y="198" width="698" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599362062356" />
     <state x="658" y="198" width="673" height="676" key="search.everywhere.popup/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599389839668" />
-    <state x="658" y="198" width="672" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591890665740" />
   </component>
 </project>
