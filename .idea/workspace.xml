@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/connected_components.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="fixed DFS iterative undirected connected graph">
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/IDS_or_IDFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/dfn_low_and_high.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/connected_components.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/connected_components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,14 +396,15 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1599994279721">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1601135517844">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1599994279721" />
-    <state x="34" y="123" width="1784" height="860" key="DiffContextDialog" timestamp="1599291010066">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1601135517844" />
+    <state x="28" y="27" width="1784" height="860" key="DiffContextDialog" timestamp="1601135513367">
+      <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
+    <state x="28" y="27" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1601135513367" />
     <state x="825" y="468" key="Github.Dialog.Accounts.Choose" timestamp="1599397942970">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>

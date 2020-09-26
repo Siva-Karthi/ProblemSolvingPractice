@@ -50,17 +50,18 @@ def dfs_iterative(start):
     print("well done!")
 
 
-def dfs_handle_cycle_iterative(start):
+def dfs_iterative_handle_cycle(start):
     print("vertex", start)
     childs = graph[start][::-1]
+    visited = [start]
     while childs != []:
-        child = childs.pop(-1)  # 3 ##childs [2]
-        print("vertex", child)
-        grand_childrens = graph[child]  # '3', '4'
+        child = childs.pop(-1)
+        # print("vertex", child, "visited", visited, "child", child,"childs,", childs)
+        visited.append(child)
+        grand_childrens = graph[child]
         if grand_childrens != []:
-            childs.extend(grand_childrens[::-1])  ## childs []
+            childs.extend([i for i in grand_childrens[::-1] if (i not in visited) and (i not in childs)])
     print("well done!")
-
 
 # output 0, 1, 3, 4, 2
 # expected output = 0, 1, 3, 4, 2

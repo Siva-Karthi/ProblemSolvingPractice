@@ -20,21 +20,21 @@ graph = {'0': ['1', '2'],
 # outut : 2
 """
 
-# todo : fix - it have a bug
-# def dfs_iterative_handle_cycle(start):
-#     print("vertex", start)
-#     childs = graph[start][::-1]
-#     visited = [start]
-#     while childs != []:
-#         child = childs.pop(-1)
-#         # print("vertex", child)
-#         print("vertex", child, "visited", visited, "child", child,"childs,", childs)
-#         visited.append(child)
-#         grand_childrens = graph[child]
-#         if grand_childrens != []:
-#             childs.extend([i for i in grand_childrens[::-1] if i not in visited])
-#     print("well done!")
-#
+
+def dfs_iterative_handle_cycle(start):
+    print("vertex", start)
+    childs = graph[start][::-1]
+    visited = [start]
+    while childs != []:
+        child = childs.pop(-1)
+        # print("vertex", child, "visited", visited, "child", child,"childs,", childs)
+        visited.append(child)
+        grand_childrens = graph[child]
+        if grand_childrens != []:
+            childs.extend([i for i in grand_childrens[::-1] if (i not in visited) and (i not in childs)])
+    print("well done!")
+
+
 visited = []
 
 
@@ -47,17 +47,17 @@ def dfs_recursive(root):
 
 
 if __name__ == '__main__':
-    # dfs_recursive('1')
+    dfs_iterative_handle_cycle('0')
 
-    # connected components and count
-    cc = 0
-
-    for vertex in graph:
-        if vertex not in visited:
-            print("calling", vertex, "\n")
-            dfs_recursive(vertex)
-            cc = cc + 1
-            print("***")
-    print("number of connected components = ", cc)
+    # # connected components and count
+    # cc = 0
+    #
+    # for vertex in graph:
+    #     if vertex not in visited:
+    #         print("calling", vertex, "\n")
+    #         dfs_recursive(vertex)
+    #         cc = cc + 1
+    #         print("***")
+    # print("number of connected components = ", cc)
 
 # how to mutual friends
