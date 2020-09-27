@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="fixed DFS iterative undirected connected graph">
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/IDS_or_IDFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/dfn_low_and_high.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/connected_components.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/connected_components.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601135543130</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added code for finding articulation points on a un directed graph">
+      <created>1601215527409</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601215527409</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -397,16 +401,17 @@
     <MESSAGE value="took DFS and BFS session" />
     <MESSAGE value="took BFS session" />
     <MESSAGE value="fixed DFS iterative undirected connected graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed DFS iterative undirected connected graph" />
+    <MESSAGE value="added code for finding articulation points on a un directed graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code for finding articulation points on a un directed graph" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1601135542758">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1601215527177">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1601135542758" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1601215527177" />
     <state x="28" y="27" width="1784" height="860" key="DiffContextDialog" timestamp="1601135513367">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -420,10 +425,10 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601135545114">
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601215529455">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1601135545114" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1601215529455" />
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
