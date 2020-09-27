@@ -17,47 +17,50 @@ graph = {'0': ['1', '2'],
 # 5    7  - 8
 # |
 # 6
-# output : 3
+# outut : 2
 """
+
+counter = 0
+dfn = {}
+visited = []
 
 
 def dfs_iterative_handle_cycle(start):
-    print("vertex", start)
+    print("vertex=>", start)
     childs = graph[start][::-1]
     visited = [start]
+    global counter
+
+    counter += 1
+    dfn[start] = {'low': counter}
+
     while childs != []:
         child = childs.pop(-1)
+        counter += 1
+        dfn[child] = {'low': counter}
+
         # print("vertex", child, "visited", visited, "child", child,"childs,", childs)
         visited.append(child)
         grand_childrens = graph[child]
         if grand_childrens != []:
             childs.extend([i for i in grand_childrens[::-1] if (i not in visited) and (i not in childs)])
+        counter += 1
+        dfn[child]['high'] = counter
+
+    counter += 1
+    dfn[start]['high'] = counter
+
     print("well done!")
-
-
-visited = []
-
-
-def dfs_recursive(root):
-    print("vertex", root)
-    visited.append(root)
-    for child in graph[root]:
-        if child not in visited:
-            dfs_recursive(child)
 
 
 if __name__ == '__main__':
     dfs_iterative_handle_cycle('0')
+    print(dfn)
 
-    # # connected components and count
-    # cc = 0
-    #
-    # for vertex in graph:
-    #     if vertex not in visited:
-    #         print("calling", vertex, "\n")
-    #         dfs_recursive(vertex)
-    #         cc = cc + 1
-    #         print("***")
-    # print("number of connected components = ", cc)
+"""
+articulation points
 
-# how to mutual friends
+check bi-connected?
+if not print articulation points
+how to make this graph bi-connected?
+"""
