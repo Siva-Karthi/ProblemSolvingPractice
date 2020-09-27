@@ -18,11 +18,35 @@ graph = {'0': ['1', '2'],
 # |
 # 6
 # outut : 2
+                     9
+                    / 
+#         1        5
+#      /    \   /  |  \
+#     4      2 --------7
+#      \    /  \   |  /
+#        3         8 
+       /   \
+#     10    9           
+# outut :
+ 
 """
 
+# graph2 = {'1': ['4', '2'],
+#          '1': ['0', '3', '4', '2'],
+#          '2': ['0', '1'],
+#          '3': ['1', '4'],
+#          '4': ['1', '3'],
+#          '5': ['6'],
+#          '6': ['5'],
+#          '7': ['8'],
+#          '8': ['7']}
+
 counter = 0
-dfn = {}
+dfn = {'1': {'pre': 0, 'post': 0}, '0': {'pre': 0, 'post': 0}, '3': {'pre': 0, 'post': 0}, '2': {'pre': 0, 'post': 0},
+       '4': {'pre': 0, 'post': 0}}
+
 visited = []
+low = {}
 
 
 def dfs_iterative_handle_cycle(start):
@@ -53,9 +77,45 @@ def dfs_iterative_handle_cycle(start):
     print("well done!")
 
 
+def dfs_recursive(root):
+    print("vertex", root)
+    visited.append(root)
+    # pre order number
+    global counter
+    counter += 1
+    dfn[root] = {'pre': counter}
+
+    for child in graph[root]:
+        if child not in visited:
+            dfs_recursive(child)
+    # post order number
+    counter += 1
+    dfn[root]['post'] = counter
+
+
+def art(root, parent="-1"):
+    print("vertex", root)
+    visited.append(root)
+    # pre order number
+    global counter
+    counter += 1
+    dfn[root] = {'pre': counter}
+    low[root] = counter
+    for child in graph[root]:
+        if child not in visited:
+            art(child, root)
+            low[root] = min(low[root], low[child])
+        elif child != parent:
+            low[root] = min(low[root], dfn[child])
+    # post order number
+    counter += 1
+    dfn[root]['post'] = counter
+
+
 if __name__ == '__main__':
-    dfs_iterative_handle_cycle('0')
+    art('0')
     print(dfn)
+    print(low)
 
 """
 articulation points
