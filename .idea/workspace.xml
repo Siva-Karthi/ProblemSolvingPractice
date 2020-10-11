@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="fixed DFS iterative undirected connected graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/siva/DataStructures/.pytest_cache/.gitignore&#10;test&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py:&#9;null&#9;null" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +53,28 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_reverse_linked_list">
+  <component name="RunManager" selected="Python.articulation">
+    <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../my_virtualenvs/ProblemSolvingPractice/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interviews/Amazon" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +201,7 @@
     </configuration>
     <list>
       <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
+      <item itemvalue="Python.articulation" />
       <item itemvalue="Python.overlapping_classes" />
       <item itemvalue="Python.binary_search" />
       <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
@@ -408,19 +432,63 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1601215527177">
+    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601812129579">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1601215527177" />
-    <state x="28" y="27" width="1784" height="860" key="DiffContextDialog" timestamp="1601135513367">
+    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1601812129579" />
+    <state x="1042" y="213" key="#xdebugger.evaluate" timestamp="1601812344886">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="1042" y="213" key="#xdebugger.evaluate/69.27.1851.1053@69.27.1851.1053" timestamp="1601812344886" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1602391162847">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1602391162847" />
+    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602391123053">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
-    <state x="28" y="27" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1601135513367" />
+    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602391123053" />
+    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601812128193">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl/69.27.1851.1053@69.27.1851.1053" timestamp="1601812128193" />
     <state x="825" y="468" key="Github.Dialog.Accounts.Choose" timestamp="1599397942970">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="825" y="468" key="Github.Dialog.Accounts.Choose/69.27.1851.1053@69.27.1851.1053" timestamp="1599397942970" />
+    <state width="902" height="343" key="GridCell.Tab.0.bottom" timestamp="1601813383967">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383967" />
+    <state width="902" height="343" key="GridCell.Tab.0.center" timestamp="1601813383965">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383965" />
+    <state width="902" height="343" key="GridCell.Tab.0.left" timestamp="1601813383964">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383964" />
+    <state width="902" height="343" key="GridCell.Tab.0.right" timestamp="1601813383966">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383966" />
+    <state width="902" height="343" key="GridCell.Tab.1.bottom" timestamp="1601813383969">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
+    <state width="902" height="343" key="GridCell.Tab.1.center" timestamp="1601813383968">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.center/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
+    <state width="902" height="343" key="GridCell.Tab.1.left" timestamp="1601813383967">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.left/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383967" />
+    <state width="902" height="343" key="GridCell.Tab.1.right" timestamp="1601813383968">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.right/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
     <state width="593" height="498" key="SwitcherDM" timestamp="1599388605922">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -437,25 +505,45 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384516724" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1600596082561">
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1602312675048">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1600059271971" />
     <state x="2523" y="362" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599460314459" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1600596082561" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602312675048" />
     <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599385841490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599385841490" />
-    <state x="1189" y="264" width="1461" height="576" key="find.popup" timestamp="1599400425742">
-      <screen x="0" y="27" width="3840" height="1053" />
+    <state x="642" y="264" width="714" height="576" key="find.popup" timestamp="1601808744923">
+      <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1189" y="264" width="1461" height="576" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400425742" />
-    <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup" timestamp="1599400886402">
-      <screen x="0" y="27" width="3840" height="1053" />
+    <state x="642" y="264" width="714" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1601808744923" />
+    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup" timestamp="1601808669876">
+      <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400886402" />
     <state x="611" y="198" width="698" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599362062356" />
     <state x="658" y="198" width="673" height="676" key="search.everywhere.popup/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599389839668" />
+    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1601808669876" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Interviews/Amazon/articulation_points.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dfn" />
+        <watch expression="low" />
+        <watch expression="visited = []&#10;" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
