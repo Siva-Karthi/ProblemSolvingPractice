@@ -73,7 +73,46 @@ from pprint import pprint
            |  
 #          5             
 
+
+       1
+  (15)/  \ (20)
+    2 - - 3
+      (15)
       
+  v = 3
+  e = 3
+  
+  
+  saannintree = grah with alll vertices connect using min number edges    
+       1
+    /     \         1   - 35
+    2      3
+    
+    
+       1
+         \            2   - 35
+    2 - - 3
+  
+       1                 3   - 30
+     /   
+    2 - - 3
+  
+  min number of edges = n-1 (n = vertices)
+  
+  maximum number of sannintree from a grah = n ^ (n-2)
+         3 ^ 1 = 3 
+         
+   no cycle
+         
+         
+         
+minimum sanning treee
+
+
+alications
+   st   -  number ways to connect and choose one
+   mst  - 
+          
 """
 graph3 = {
     "1": ['2', '3', '4'],

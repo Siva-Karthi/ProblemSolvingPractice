@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="fixed DFS iterative undirected connected graph">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="articulation_points.py added explantion">
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/data_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/kruskal_algo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/dfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601215527409</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="articulation_points.py added explantion">
+      <created>1602391164492</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602391164492</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -426,7 +435,8 @@
     <MESSAGE value="took BFS session" />
     <MESSAGE value="fixed DFS iterative undirected connected graph" />
     <MESSAGE value="added code for finding articulation points on a un directed graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code for finding articulation points on a un directed graph" />
+    <MESSAGE value="articulation_points.py added explantion" />
+    <option name="LAST_COMMIT_MESSAGE" value="articulation_points.py added explantion" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -440,15 +450,15 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1042" y="213" key="#xdebugger.evaluate/69.27.1851.1053@69.27.1851.1053" timestamp="1601812344886" />
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1602391162847">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1602521236156">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1602391162847" />
-    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602391123053">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1602521236156" />
+    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602521235952">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
-    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602391123053" />
+    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602521235952" />
     <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601812128193">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -493,10 +503,10 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601215529455">
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602391168647">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1601215529455" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1602391168647" />
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -505,35 +515,35 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384516724" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1602312675048">
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1602519247848">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1600059271971" />
     <state x="2523" y="362" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599460314459" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602312675048" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602519247848" />
     <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599385841490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599385841490" />
-    <state x="642" y="264" width="714" height="576" key="find.popup" timestamp="1601808744923">
+    <state x="642" y="264" width="714" height="576" key="find.popup" timestamp="1602392714574">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1189" y="264" width="1461" height="576" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400425742" />
-    <state x="642" y="264" width="714" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1601808744923" />
-    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup" timestamp="1601808669876">
+    <state x="642" y="264" width="714" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1602392714574" />
+    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup" timestamp="1602398096419">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400886402" />
     <state x="611" y="198" width="698" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599362062356" />
     <state x="658" y="198" width="673" height="676" key="search.everywhere.popup/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599389839668" />
-    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1601808669876" />
+    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1602398096419" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Interviews/Amazon/articulation_points.py</url>
-          <line>105</line>
+          <line>143</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
