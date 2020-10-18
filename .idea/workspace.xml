@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="articulation_points.py added explantion">
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/data_structures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/kruskal_algo.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/data_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/graph_data_structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/kruskal_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/kruskal_algo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602391164492</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="articulation_points.py added explantion&#10;added disjoint set">
+      <created>1602521244812</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602521244812</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -436,7 +442,8 @@
     <MESSAGE value="fixed DFS iterative undirected connected graph" />
     <MESSAGE value="added code for finding articulation points on a un directed graph" />
     <MESSAGE value="articulation_points.py added explantion" />
-    <option name="LAST_COMMIT_MESSAGE" value="articulation_points.py added explantion" />
+    <MESSAGE value="articulation_points.py added explantion&#10;added disjoint set" />
+    <option name="LAST_COMMIT_MESSAGE" value="articulation_points.py added explantion&#10;added disjoint set" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -450,10 +457,10 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1042" y="213" key="#xdebugger.evaluate/69.27.1851.1053@69.27.1851.1053" timestamp="1601812344886" />
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1602521236156">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1602521244237">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1602521236156" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1602521244237" />
     <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602521235952">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -503,10 +510,10 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602391168647">
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602521247383">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1602391168647" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1602521247383" />
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
