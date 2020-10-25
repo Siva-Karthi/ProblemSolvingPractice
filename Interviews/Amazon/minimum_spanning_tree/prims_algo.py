@@ -31,16 +31,27 @@ def mst_using_prims_algo():
 
 
     :return:
+
+      1
+    /
+   2  -- 3
     """
 
     ""
+
+    # n   = vertices in a graph
+    # n-1 = edges in spanning tree
+    # weighted_graph["1"] -> [('2', 1), ('3', 10), ('4', 40)]
+    #           1
+    #   (1) /
+    #      2
+
     #           1
     #   (1) /   |   \ (10)
-    #      2 -  |  - 3                           -> (2,3) =30 and (1,4) = 40
-    #  (1)  \   |   / (20)
-    #           4
-    #   (1)     |
-    #           5
+    #      2 -  |  - 3(30)
+    #  (1)  \   |
+    #           4 (40)
+
     ""
 
     weighted_graph = {
@@ -51,17 +62,39 @@ def mst_using_prims_algo():
         "5": [('4', 1)]
     }
 
+    """
+        1 2  3  4  5  
+    1 [[0 1 10  40  inf ]
+    2 [                 ]
+    3 [                 ]
+    4 [                 ]
+    5 [                 ]]
+    """
+
     n = len(weighted_graph.keys())
     T = []
-    TV = ["1"]  # starting from vertex-1
     edges = get_edges(weighted_graph)
+    # print(edges)
+
+    # 1. choose next from edges with minimal weight....
+    # 2. chosen vertex shouldn't form a cycle and should connect TO ALREADY vertices in the tree
+    #           1
+    #   (1) /   |   \ (10)
+    #      2 -  |  - 3                           -> (2,3) =30 and (1,4) = 40
+    #  (1)  \   |   / (20)
+    #           4
+    #   (1)     |
+    #           5
+    TV = ["1"]  # starting from vertex-1
     while len(T) < (n - 1):
         # Take the least weight edge where <u,v> where as u belongs to TV and not belongs to v
+        # {('1', '2'): 1, ('1', '3'): 10, ('1', '4'): 40, ('2', '3'): 30, ('2', '4'): 1, ('3', '4'): 20, ('4', '5'): 1}
         next_edge = get_next_least_cost_adjacent(TV, edges)
         if not next_edge:
             break
         TV.append(next_edge[1])
         T.append(next_edge)
+
 
     if len(T) < n - 1:
         print("No spanning tree")

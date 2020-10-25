@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added kruskal algo using disjoint set">
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/kruskal_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/kruskal_algo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/siva/DataStructures/.pytest_cache/.gitignore&#10;test&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py:&#9;null&#9;null" />
     <property name="TF_FMT" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.articulation">
+  <component name="RunManager" selected="Python.prims_algo">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="overlapping_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prims_algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,13 +126,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/daily_coding_problem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/daily_coding_problem/overlapping_classes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -205,17 +205,17 @@
       <item itemvalue="Python.articulation" />
       <item itemvalue="Python.binary_search" />
       <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
-      <item itemvalue="Python.overlapping_classes" />
       <item itemvalue="Python.test_reverse_linked_list" />
       <item itemvalue="Python tests.pytest for problem_solving" />
+      <item itemvalue="Python.prims_algo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prims_algo" />
         <item itemvalue="Python.test_reverse_linked_list" />
         <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
         <item itemvalue="Python.binary_search" />
         <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
-        <item itemvalue="Python.overlapping_classes" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603025882223</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added prims algo for finding MST">
+      <created>1603618883864</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603618883864</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -451,7 +458,8 @@
     <MESSAGE value="articulation_points.py added explantion" />
     <MESSAGE value="articulation_points.py added explantion&#10;added disjoint set" />
     <MESSAGE value="added kruskal algo using disjoint set" />
-    <option name="LAST_COMMIT_MESSAGE" value="added kruskal algo using disjoint set" />
+    <MESSAGE value="added prims algo for finding MST" />
+    <option name="LAST_COMMIT_MESSAGE" value="added prims algo for finding MST" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -465,11 +473,11 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="1042" y="213" key="#xdebugger.evaluate/69.27.1851.1053@69.27.1851.1053" timestamp="1601812344886" />
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1603617611661">
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1603624352059">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="601" y="149" key="CommitChangelistDialog2/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1603025881515" />
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1603617611661" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1603624352059" />
     <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602521235952">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -483,22 +491,38 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="825" y="468" key="Github.Dialog.Accounts.Choose/69.27.1851.1053@69.27.1851.1053" timestamp="1599397942970" />
-    <state width="902" height="343" key="GridCell.Tab.0.bottom" timestamp="1601813383967">
+    <state width="1805" height="351" key="GridCell.Tab.0.bottom" timestamp="1603624320143">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="902" height="343" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383967" />
-    <state width="902" height="343" key="GridCell.Tab.0.center" timestamp="1601813383965">
+    <state width="1920" height="411" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1603622928934">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="902" height="343" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383965" />
-    <state width="902" height="343" key="GridCell.Tab.0.left" timestamp="1601813383964">
+    <state width="1920" height="411" key="GridCell.Tab.0.bottom.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928934" />
+    <state width="1805" height="351" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1603624320143" />
+    <state width="1805" height="351" key="GridCell.Tab.0.center" timestamp="1603624320143">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="902" height="343" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383964" />
-    <state width="902" height="343" key="GridCell.Tab.0.right" timestamp="1601813383966">
+    <state width="1920" height="411" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1603622928932">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="902" height="343" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383966" />
+    <state width="1920" height="411" key="GridCell.Tab.0.center.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928932" />
+    <state width="1805" height="351" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1603624320143" />
+    <state width="1805" height="351" key="GridCell.Tab.0.left" timestamp="1603624320142">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1603622928931">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.left.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928931" />
+    <state width="1805" height="351" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1603624320142" />
+    <state width="1805" height="351" key="GridCell.Tab.0.right" timestamp="1603624320143">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1603622928933">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.right.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928933" />
+    <state width="1805" height="351" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1603624320143" />
     <state width="902" height="343" key="GridCell.Tab.1.bottom" timestamp="1601813383969">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
@@ -519,11 +543,11 @@
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603025884454">
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603618886924">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
     <state x="589" y="288" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1603025884454" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1602521247383" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1603618886924" />
     <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
