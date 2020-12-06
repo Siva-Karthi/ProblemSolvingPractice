@@ -6,11 +6,12 @@ def sort(graph, n):
 
     Implementation Details:
     """
+    print("Topological Order is")
     top = -1
     for k,v in graph.count.items():
         if v == 0: # no predecessor
             if top == -1:
-                graph.count[k] = 0
+                graph.count[k] = top
             else:
                 graph.count[k] = top
             top = k
@@ -19,19 +20,18 @@ def sort(graph, n):
         if top == -1:
             print("cyclic graph can't proceed")
         else:
-            print("top", top)
+            temp =  top
 
-            temp = graph.graph[top]
-
-            print(temp.vertex)
+            print(temp, end=", ")
 
             top = graph.count[top]
-            print("next top", top)
-            ptr = temp.next
+           
+            ptr = graph.graph[temp]
             while ptr:
                 k = ptr.vertex 
+                graph.count[k] -= 1
                 if graph.count[k] == 0:
-                    graph.count = top
+                    graph.count[k] = top
                     top = k
                 ptr = ptr.next
 
@@ -104,7 +104,6 @@ if __name__ == "__main__":
     graph.add_edge(3, 5) 
   
     graph.print_graph() 
-    print(graph.graph)
-    print(graph.count)
+    
 
     sort(graph, V)
