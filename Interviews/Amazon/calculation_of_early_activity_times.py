@@ -44,9 +44,11 @@ def sort(graph, n):
             while ptr:
                 k = ptr.vertex
                 # update ee[]
-                if ptr.next:
-                    if (ee[ptr.next.vertex] < ee[k]+ ptr.duration):
-                        ee[ptr.next.vertex] = ee[k]+ ptr.duration
+                # if ptr.next:
+                #     if (ee[ptr.next.vertex] < ee[k]+ ptr.duration):
+                #         ee[ptr.next.vertex] = ee[k]+ ptr.duration
+                if ee[ptr.vertex] < ee[temp]+ptr.duration:
+                    ee[ptr.vertex] = ee[temp]+ptr.duration
                 graph.count[k] -= 1
                 if graph.count[k] == 0:
                     #  update count and top
@@ -120,7 +122,7 @@ if __name__ == "__main__":
 
     graph.add_edge(1, 4, 1) 
     
-    graph.add_edge(2, 4,5) 
+    graph.add_edge(2, 4, 1) 
     
 
     graph.add_edge(3, 5, 2) 
