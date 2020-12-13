@@ -87,7 +87,18 @@ def get_le(top_sorted,graph, V, le, ee):
     print("le out",le)
     return le
 
-
+def get_e_and_l(ee, le, graph):
+    e = []
+    l = []
+    for node, adj in enumerate(graph.graph):
+        print("node", node)        
+        while adj:
+            print("adj",adj.vertex)
+            e.append(ee[node])
+            print("le[adj.vertex], adj.duration",le[adj.vertex], adj.duration)
+            l.append(le[adj.vertex] - adj.duration)
+            adj = adj.next
+    return e,l
 
 """ 
 A Python program to demonstrate the adjacency 
@@ -174,3 +185,13 @@ if __name__ == "__main__":
     le = ee
     le = get_le(top_sorted, graph, V, le, ee)
     print("le out",le)
+    e,l = get_e_and_l(ee, le, graph)
+    print("e",e,"l",l)
+    print("l-e or slack")
+    for e,l in zip(e,l):
+        print(l-e, end="-")
+        if l-e ==0:
+            print("YES")
+        else:
+            print("NO")
+        print("\n")
