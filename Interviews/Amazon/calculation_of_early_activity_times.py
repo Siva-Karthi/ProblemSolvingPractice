@@ -1,3 +1,5 @@
+import math
+
 def sort(graph, n):
     """
     Concept:
@@ -9,10 +11,14 @@ def sort(graph, n):
     1. use topsort so that all preceeding for that particular vertex will be completed first
     2. formula :
         for edge/activity <k,l> , i-th activity
-        e(i) = ee[k]
-
+        e(i) = ee[k] and l(i) = le(l) - duration of the activity
+        
+        expanded formula:
+        
         ee[k] = max([ee[i] + duration of<i,j> for i in predecessor of j])
 
+        le(l) = min([le[i] - duration of<j,i> for each adjacent(sucessor) vertex of j ])
+ 
     problem:
         no way to accesss the predecessor easily in adjacency list representation
         soln - keep addional array and compute the ee[k] on each vertex for next vertex
@@ -25,6 +31,7 @@ def sort(graph, n):
     """
     print("Topological Order is")
     ee = [0 for i in range(n)]
+    top_sorted = []
     top = -1
     for k,v  in graph.count.items():
         if v == 0:
@@ -38,6 +45,8 @@ def sort(graph, n):
         else:
             temp = top
             print(temp, end=", ")
+            top_sorted.append(temp)
+
             top = graph.count[temp]
             
             ptr = graph.graph[temp]
@@ -57,6 +66,28 @@ def sort(graph, n):
                 ptr = ptr.next
     print("\n\n")
     print(ee)
+    return top_sorted, ee
+
+
+def get_le(top_sorted,graph, V, le, ee):
+    top_sorted.reverse()
+    print(top_sorted)
+    le = [math.inf for i in ee]
+    le[-1] = ee[-1]
+    for event in top_sorted:
+        print("event", event)
+        sucessor =  graph.graph[event]
+        while sucessor:
+            print("sucessor", sucessor.vertex, sucessor.duration,le[sucessor.vertex] ,le[event] ,le[sucessor.vertex] - sucessor.duration < le[event])
+            if le[sucessor.vertex] - sucessor.duration < le[event]:
+                le[event] = le[sucessor.vertex] - sucessor.duration
+            # print(sucessor.vertex)         
+            sucessor = sucessor.next
+        print("\n")
+    print("le out",le)
+    return le
+
+
 
 """ 
 A Python program to demonstrate the adjacency 
@@ -139,4 +170,7 @@ if __name__ == "__main__":
     graph.print_graph() 
     
 
-    sort(graph, V)
+    top_sorted, ee = sort(graph, V)
+    le = ee
+    le = get_le(top_sorted, graph, V, le, ee)
+    print("le out",le)
