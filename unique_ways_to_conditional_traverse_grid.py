@@ -125,3 +125,12 @@ if __name__ == '__main__':
 # 2 X 1, 1 X 1  - 2 nd way
 # 3 X1  - 3rd way
 # 1 X1 , 2X1 - 4th way
+=======
+def number_of_ways_to_destination(m: int, n: int) -> int:
+    if (m == 1 or n== 1):
+        return 1
+    else:
+        return number_of_ways_to_destination(m,n-1) +  number_of_ways_to_destination(m -1 ,n)
+
+if __name__ == '__main__':
+    print("number_of_ways_to_destination(3,7) is ", number_of_ways_to_destination(3,7))
