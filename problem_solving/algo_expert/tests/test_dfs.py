@@ -1,6 +1,6 @@
 from problem_solving.algo_expert.dfs import Node
 
-
+# use mocks
 def test_dfs_simple_positive():
     """
     input =

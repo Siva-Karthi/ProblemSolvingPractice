@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datastructures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/hard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/hard/reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added comments and a bit explantions in prims algo for finding MST">
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/shortest_path/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/shortest_path/single_source_shortest_path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailycoding/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailycoding/todo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="96cb75b0-7238-4037-867b-3ef46a16488b" />
+  </component>
   <component name="ProjectId" id="1VHtIxV3B0GZp0QMUyLwltvpkCV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,18 +42,42 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/siva/DataStructures/.pytest_cache/.gitignore&#10;test&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py:&#9;null&#9;null" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
+      <recent name="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_reverse_linked_list">
+  <component name="RunManager" selected="Python.prims_algo">
+    <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../my_virtualenvs/ProblemSolvingPractice/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interviews/Amazon" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="overlapping_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prims_algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,13 +128,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/daily_coding_problem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/daily_coding_problem/overlapping_classes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -184,19 +204,20 @@
     </configuration>
     <list>
       <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
-      <item itemvalue="Python.overlapping_classes" />
+      <item itemvalue="Python.articulation" />
       <item itemvalue="Python.binary_search" />
       <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
+      <item itemvalue="Python.prims_algo" />
       <item itemvalue="Python.test_reverse_linked_list" />
       <item itemvalue="Python tests.pytest for problem_solving" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prims_algo" />
         <item itemvalue="Python.test_reverse_linked_list" />
         <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
         <item itemvalue="Python.binary_search" />
         <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
-        <item itemvalue="Python.overlapping_classes" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +349,84 @@
       <option name="project" value="LOCAL" />
       <updated>1584704806754</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="practiced reverse linked list">
+      <created>1591890754034</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591890754034</updated>
+    </task>
+    <task id="LOCAL-00017" summary="practiced reverse linked list">
+      <created>1591890777039</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591890777039</updated>
+    </task>
+    <task id="LOCAL-00018" summary="took DFS and BFS session">
+      <created>1599397922537</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599397922537</updated>
+    </task>
+    <task id="LOCAL-00019" summary="took BFS session">
+      <created>1599994280399</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599994280399</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixed DFS iterative undirected connected graph">
+      <created>1601135543130</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601135543130</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added code for finding articulation points on a un directed graph">
+      <created>1601215527409</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601215527409</updated>
+    </task>
+    <task id="LOCAL-00022" summary="articulation_points.py added explantion">
+      <created>1602391164492</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602391164492</updated>
+    </task>
+    <task id="LOCAL-00023" summary="articulation_points.py added explantion&#10;added disjoint set">
+      <created>1602521244812</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602521244812</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added kruskal algo using disjoint set">
+      <created>1603025882223</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603025882223</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added prims algo for finding MST">
+      <created>1603618883864</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603618883864</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added comments and a bit explantions in prims algo for finding MST">
+      <created>1603624354179</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603624354179</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -361,58 +459,152 @@
     <MESSAGE value="added circleci" />
     <MESSAGE value="practiced moving element to the end in the array" />
     <MESSAGE value="practiced nth non repeating char from a sting" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced nth non repeating char from a sting" />
+    <MESSAGE value="practiced reverse linked list" />
+    <MESSAGE value="took DFS and BFS session" />
+    <MESSAGE value="took BFS session" />
+    <MESSAGE value="fixed DFS iterative undirected connected graph" />
+    <MESSAGE value="added code for finding articulation points on a un directed graph" />
+    <MESSAGE value="articulation_points.py added explantion" />
+    <MESSAGE value="articulation_points.py added explantion&#10;added disjoint set" />
+    <MESSAGE value="added kruskal algo using disjoint set" />
+    <MESSAGE value="added prims algo for finding MST" />
+    <MESSAGE value="added comments and a bit explantions in prims algo for finding MST" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments and a bit explantions in prims algo for finding MST" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1591890753761">
+    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601812129579">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="600" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1584704806545" />
-    <state x="601" y="149" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1591890753761" />
-    <state x="102" y="123" width="1719" height="860" key="DiffContextDialog" timestamp="1591890712202">
+    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1601812129579" />
+    <state x="1042" y="213" key="#xdebugger.evaluate" timestamp="1601812344886">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="100" y="98" width="1720" height="882" key="DiffContextDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772307374" />
-    <state x="102" y="123" width="1719" height="860" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591890712202" />
-    <state width="1805" height="341" key="GridCell.Tab.0.bottom" timestamp="1591549990050">
+    <state x="1042" y="213" key="#xdebugger.evaluate/69.27.1851.1053@69.27.1851.1053" timestamp="1601812344886" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1604223668776">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990050" />
-    <state width="1805" height="341" key="GridCell.Tab.0.center" timestamp="1591549990049">
+    <state x="601" y="149" key="CommitChangelistDialog2/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1603025881515" />
+    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1604223668776" />
+    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602521235952">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
-    <state width="1805" height="341" key="GridCell.Tab.0.left" timestamp="1591549990048">
+    <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
+    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602521235952" />
+    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601812128193">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990048" />
-    <state width="1805" height="341" key="GridCell.Tab.0.right" timestamp="1591549990049">
+    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl/69.27.1851.1053@69.27.1851.1053" timestamp="1601812128193" />
+    <state x="825" y="468" key="Github.Dialog.Accounts.Choose" timestamp="1599397942970">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state width="1805" height="341" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1591549990049" />
-    <state x="449" y="174" key="SettingsEditor" timestamp="1584772385140">
-      <screen x="67" y="0" width="1853" height="1080" />
-    </state>
-    <state x="449" y="174" key="SettingsEditor/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772385140" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591890756216">
+    <state x="825" y="468" key="Github.Dialog.Accounts.Choose/69.27.1851.1053@69.27.1851.1053" timestamp="1599397942970" />
+    <state width="1805" height="351" key="GridCell.Tab.0.bottom" timestamp="1603628245116">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1591890756216" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1591757734836">
+    <state width="1920" height="411" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1603622928934">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="649" y="362" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1584772091585" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1591757734836" />
-    <state x="642" y="264" width="704" height="576" key="find.popup" timestamp="1591549965712">
+    <state width="1920" height="411" key="GridCell.Tab.0.bottom.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928934" />
+    <state width="1805" height="351" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
+    <state width="1805" height="351" key="GridCell.Tab.0.center" timestamp="1603628245116">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="642" y="264" width="704" height="576" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591549965712" />
-    <state x="658" y="198" width="672" height="676" key="search.everywhere.popup" timestamp="1591890665740">
+    <state width="1920" height="411" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1603622928932">
       <screen x="69" y="27" width="1851" height="1053" />
     </state>
-    <state x="658" y="198" width="672" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1591890665740" />
+    <state width="1920" height="411" key="GridCell.Tab.0.center.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928932" />
+    <state width="1805" height="351" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
+    <state width="1805" height="351" key="GridCell.Tab.0.left" timestamp="1603628245116">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1603622928931">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.left.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928931" />
+    <state width="1805" height="351" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
+    <state width="1805" height="351" key="GridCell.Tab.0.right" timestamp="1603628245116">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1603622928933">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="1920" height="411" key="GridCell.Tab.0.right.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928933" />
+    <state width="1805" height="351" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
+    <state width="902" height="343" key="GridCell.Tab.1.bottom" timestamp="1601813383969">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
+    <state width="902" height="343" key="GridCell.Tab.1.center" timestamp="1601813383968">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.center/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
+    <state width="902" height="343" key="GridCell.Tab.1.left" timestamp="1601813383967">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.left/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383967" />
+    <state width="902" height="343" key="GridCell.Tab.1.right" timestamp="1601813383968">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="902" height="343" key="GridCell.Tab.1.right/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
+    <state width="593" height="498" key="SwitcherDM" timestamp="1599388605922">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604222146575">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="589" y="288" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1603025884454" />
+    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1604222146575" />
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384565044" />
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1599384516724">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384516724" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1603748364325">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1600059271971" />
+    <state x="2523" y="362" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599460314459" />
+    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1603748364325" />
+    <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599385841490">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599385841490" />
+    <state x="642" y="264" width="873" height="642" key="find.popup" timestamp="1603625046792">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="1189" y="264" width="1461" height="576" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400425742" />
+    <state x="642" y="264" width="873" height="642" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1603625046792" />
+    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup" timestamp="1603624936118">
+      <screen x="69" y="27" width="1851" height="1053" />
+    </state>
+    <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400886402" />
+    <state x="611" y="198" width="698" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599362062356" />
+    <state x="658" y="198" width="673" height="676" key="search.everywhere.popup/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599389839668" />
+    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1603624936118" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Interviews/Amazon/articulation_points.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="dfn" />
+        <watch expression="low" />
+        <watch expression="visited = []&#10;" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
