@@ -21,6 +21,7 @@ def get_edges(graph):
     return edges_with_weights
 
 
+# Time complexity O(V-1*E) | Space complexity O(V) to store distances
 def bellmon_ford(start="1"):
     """
     concept : for n-1 times relax the edges.
@@ -46,6 +47,7 @@ def bellmon_ford(start="1"):
                             }
 
 
+    Also it Can find if there's any negative weight cycles
     :return:
     """
     weighted_graph = {
@@ -60,28 +62,34 @@ def bellmon_ford(start="1"):
     edges = get_edges(weighted_graph)
     # pprint(edges)
     
-    # init 
-    dist = {v:math.inf for v in vertices}
+    # init
+    dist = {k:math.inf for k in weighted_graph}
     dist[start] = 0
 
-    # k-1 times
-    for k in range(2,n):
+    for i in range(n-1):
         for edge, cost in edges.items():
-            u = edge[0]
-            v = edge[1]
-            # check edge            
-            if dist[u] + cost < dist[v]:
-                dist[v] = dist[u] + cost
-    
+            v = edge[0]
+            u = edge[1]
+            if dist[u] > dist[v] + cost:
+                dist[u] = dist[v] + cost
     pprint(dist)
+
     for edge, cost in edges.items():
         u = edge[0]
         v = edge[1]
-        # check edge            
+        # check edge
         if dist[u] + cost < dist[v]:
             pprint("ATTENTION : graph has a cycle with negative weights so above is incorrect value")
-    
-
 
 if __name__ == '__main__':
     bellmon_ford()
+
+"""
+Improvements 
+    1. if none changed in a iteration then stop even before n-1 iterations , Maintain a queue of vertices whose dist changed blah blah
+    
+"""
+
+# print paths? - # predecessor graph?
+# how iteration differs?
+# single destination shortest path?

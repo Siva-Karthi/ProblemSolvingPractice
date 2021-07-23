@@ -43,7 +43,6 @@ breadth first spanning tree
 # current 4
 #  5
 # 4 >= 3 =True ;l then 4 is an srticuklation oint or bottleneck
-from pprint import pprint
 
 """
 #          1    
@@ -140,6 +139,7 @@ articulation = {}
 #    (5)            5
 """
 
+
 def find_articulation_points(root, parent="-1"):
     print("vertex", root)
     visited.append(root)
@@ -148,25 +148,84 @@ def find_articulation_points(root, parent="-1"):
     counter += 1
     dfn[root] = {'pre': counter}
     low[root] = counter
-    # articulation[root] = False
+    articulation[root] = False
     for child in graph3[root]:
         if child not in visited:
             find_articulation_points(child, root)
             low[root] = min(low[root], low[child])
         elif child != parent:
             low[root] = min(low[root], dfn[child]["pre"])
-        # if low[child] >= dfn[root]["pre"]:
-        #     articulation[root] = True
+        if low[child] >= dfn[root]["pre"]:
+            articulation[root] = True
     # post order number
     counter += 1
     dfn[root]['post'] = counter
 
 
+def biconnected_components(start_vertex: int, parent: int = '-1'):
+    """
+    * DFS the graph
+    * find dfn, low along
+        * dfn - just an incremental number (pre or post order number??)
+        * low(u) = min{
+            dfn(u),
+            min{
+            low(w) | w ∈ child of u in tree edges
+            },
+            dfn(x) | x is a grand parent/non tree edge or back edge
+        }
+    * find articulation points
+    * find biconnected components
+    :param start_vertex:
+    :param parent:
+    :return:
+    """
+    global num, dfn, low, visited, biconn_comps;
+    if not visited[start_vertex]:
+        num += 1
+        dfn[start_vertex] = num
+        low[start_vertex] = num
+        visited[start_vertex] = True
+    for adj in graph3[start_vertex]:
+        biconn_comps.append((start_vertex, adj))
+        # if adj != parent and dfn[adj]
+        if not visited[adj]:
+            num += 1
+            dfn[adj] = num
+            low[adj] = num
+            visited[adj] = True
+            biconnected_components(adj, start_vertex)
+            low[start_vertex] = min(int(low[start_vertex]), int(low[adj]))
+            if low[adj] >= dfn[start_vertex]:
+                articulation_points.add(start_vertex)
+                print("biconn_comps", biconn_comps)
+                x,y = biconn_comps.pop()
+                print(x,y)
+                while not (x== start_vertex and y==adj):
+                    x,y = biconn_comps.pop()
+                    print(x,y)
+
+        elif adj != parent:
+            # grand parent/ backedge / non tree edge
+            low[start_vertex] = min(int(low[start_vertex]), int(low[adj]))
+
+
 if __name__ == '__main__':
     find_articulation_points('1')
-    pprint(dfn)
-    print(low)
+    # pprint(dfn)
+    # print(low)
     print(articulation)
+    num = 0
+    dfn = {v: 0 for v in graph3}
+    low = {v: 0 for v in graph3}
+    visited = {v: False for v in graph3}
+    articulation_points = set()
+    biconn_comps = []
+    biconnected_components('1')
+    # print(dfn)
+    # print(low)
+    # print("biconn_comps",biconn_comps)
+    print("articulation_points", articulation_points)
 
 # **********************************************************************************************************************
 """
