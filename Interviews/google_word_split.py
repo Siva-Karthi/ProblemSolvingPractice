@@ -39,5 +39,6 @@ def reconstuct_word_split(w, selections):
             res.append(w[start:end + 1])
     return res
 
+print("res = ", word_split("sivasiva", ["si","va"]))
 print("res = ", word_split("catsanddogs", ["cat","cats","sand","dogs"]))
 
