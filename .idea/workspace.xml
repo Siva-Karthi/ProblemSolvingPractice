@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added comments and a bit explantions in prims algo for finding MST">
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/shortest_path/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/shortest_path/single_source_shortest_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/minimum_knight_moves_with_bishop_leetcode_1197_variation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_minimum_knight_moves_with_bishop_leetcode_1197_variation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +38,26 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="96cb75b0-7238-4037-867b-3ef46a16488b" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="1VHtIxV3B0GZp0QMUyLwltvpkCV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SearchEverywhereHistoryKey" value=".git&#9;FILE&#9;file:///home/siva/DataStructures/.pytest_cache/.gitignore&#10;test&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py&#9;FILE&#9;file:///home/siva/DataStructures/Trees/tests/test_trees.py&#10;test_trees.py:&#9;null&#9;null" />
-    <property name="TF_FMT" value="false" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
@@ -197,13 +209,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;problem_solving&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
       <item itemvalue="Python.articulation" />
       <item itemvalue="Python.binary_search" />
       <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
@@ -217,7 +229,6 @@
         <item itemvalue="Python.test_reverse_linked_list" />
         <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
         <item itemvalue="Python.binary_search" />
-        <item itemvalue="AWS Lambda.[Local] problem_solving.algo_expert.binary_search.binarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +244,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -437,9 +449,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -473,121 +483,6 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601812129579">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="452" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1601812129579" />
-    <state x="1042" y="213" key="#xdebugger.evaluate" timestamp="1601812344886">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="1042" y="213" key="#xdebugger.evaluate/69.27.1851.1053@69.27.1851.1053" timestamp="1601812344886" />
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2" timestamp="1604223668776">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="601" y="149" key="CommitChangelistDialog2/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1603025881515" />
-    <state x="601" y="149" width="782" height="912" key="CommitChangelistDialog2/69.27.1851.1053@69.27.1851.1053" timestamp="1604223668776" />
-    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog" timestamp="1602521235952">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="34" y="123" width="1784" height="860" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599291010066" />
-    <state x="69" y="27" width="1480" height="872" key="DiffContextDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1602521235952" />
-    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601812128193">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="777" y="310" width="424" height="484" key="FileChooserDialogImpl/69.27.1851.1053@69.27.1851.1053" timestamp="1601812128193" />
-    <state x="825" y="468" key="Github.Dialog.Accounts.Choose" timestamp="1599397942970">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="825" y="468" key="Github.Dialog.Accounts.Choose/69.27.1851.1053@69.27.1851.1053" timestamp="1599397942970" />
-    <state width="1805" height="351" key="GridCell.Tab.0.bottom" timestamp="1603628245116">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1603622928934">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.bottom.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928934" />
-    <state width="1805" height="351" key="GridCell.Tab.0.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
-    <state width="1805" height="351" key="GridCell.Tab.0.center" timestamp="1603628245116">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1603622928932">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.center.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928932" />
-    <state width="1805" height="351" key="GridCell.Tab.0.center/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
-    <state width="1805" height="351" key="GridCell.Tab.0.left" timestamp="1603628245116">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1603622928931">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.left.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928931" />
-    <state width="1805" height="351" key="GridCell.Tab.0.left/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
-    <state width="1805" height="351" key="GridCell.Tab.0.right" timestamp="1603628245116">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1603622928933">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="1920" height="411" key="GridCell.Tab.0.right.inPresentationMode/69.27.1851.1053@69.27.1851.1053" timestamp="1603622928933" />
-    <state width="1805" height="351" key="GridCell.Tab.0.right/69.27.1851.1053@69.27.1851.1053" timestamp="1603628245116" />
-    <state width="902" height="343" key="GridCell.Tab.1.bottom" timestamp="1601813383969">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="902" height="343" key="GridCell.Tab.1.bottom/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
-    <state width="902" height="343" key="GridCell.Tab.1.center" timestamp="1601813383968">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="902" height="343" key="GridCell.Tab.1.center/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
-    <state width="902" height="343" key="GridCell.Tab.1.left" timestamp="1601813383967">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="902" height="343" key="GridCell.Tab.1.left/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383967" />
-    <state width="902" height="343" key="GridCell.Tab.1.right" timestamp="1601813383968">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="902" height="343" key="GridCell.Tab.1.right/69.27.1851.1053@69.27.1851.1053" timestamp="1601813383968" />
-    <state width="593" height="498" key="SwitcherDM" timestamp="1599388605922">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state width="593" height="498" key="SwitcherDM/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599388605922" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604222146575">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="589" y="288" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1603025884454" />
-    <state x="589" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/69.27.1851.1053@69.27.1851.1053" timestamp="1604222146575" />
-    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599384565044">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384565044" />
-    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1599384516724">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="100" y="98" width="1720" height="882" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599384516724" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1603748364325">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1600059271971" />
-    <state x="2523" y="362" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1599460314459" />
-    <state x="650" y="380" key="com.intellij.ide.util.TipDialog/69.27.1851.1053@69.27.1851.1053" timestamp="1603748364325" />
-    <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599385841490">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="728" y="459" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599385841490" />
-    <state x="642" y="264" width="873" height="642" key="find.popup" timestamp="1603625046792">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="1189" y="264" width="1461" height="576" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400425742" />
-    <state x="642" y="264" width="873" height="642" key="find.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1603625046792" />
-    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup" timestamp="1603624936118">
-      <screen x="69" y="27" width="1851" height="1053" />
-    </state>
-    <state x="1222" y="198" width="1397" height="676" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599400886402" />
-    <state x="611" y="198" width="698" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1599362062356" />
-    <state x="658" y="198" width="673" height="676" key="search.everywhere.popup/1920.0.1920.1080/69.27.1851.1053@69.27.1851.1053" timestamp="1599389839668" />
-    <state x="658" y="198" width="674" height="676" key="search.everywhere.popup/69.27.1851.1053@69.27.1851.1053" timestamp="1603624936118" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
