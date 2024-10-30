@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added comments and a bit explantions in prims algo for finding MST">
-      <change afterPath="$PROJECT_DIR$/problem_solving/minimum_knight_moves_with_bishop_leetcode_1197_variation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_minimum_knight_moves_with_bishop_leetcode_1197_variation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="learned min steps for knight from source to destination">
+      <change afterPath="$PROJECT_DIR$/problem_solving/recursion/permutation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +36,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="1VHtIxV3B0GZp0QMUyLwltvpkCV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
@@ -68,7 +63,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prims_algo">
+  <component name="RunManager">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -438,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="learned min steps for knight from source to destination">
+      <option name="closed" value="true" />
+      <created>1730042212633</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730042212633</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -479,7 +482,8 @@
     <MESSAGE value="added kruskal algo using disjoint set" />
     <MESSAGE value="added prims algo for finding MST" />
     <MESSAGE value="added comments and a bit explantions in prims algo for finding MST" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments and a bit explantions in prims algo for finding MST" />
+    <MESSAGE value="learned min steps for knight from source to destination" />
+    <option name="LAST_COMMIT_MESSAGE" value="learned min steps for knight from source to destination" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -491,6 +495,16 @@
           <url>file://$PROJECT_DIR$/Interviews/Amazon/articulation_points.py</url>
           <line>143</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/recursion/permutation.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/recursion/permutation.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
