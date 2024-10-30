@@ -57,7 +57,8 @@ def helper(array, current, selected, res):
     for i in array:
         if selected[i]:
             continue
-        current.append(i)  # choose an option
+        # choose an option
+        current.append(i)
         selected[i] = True
         helper(array, current, selected, res)  # proceed further
         # undo the selection

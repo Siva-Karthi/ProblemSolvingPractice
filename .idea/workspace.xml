@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="learned min steps for knight from source to destination">
-      <change afterPath="$PROJECT_DIR$/problem_solving/recursion/permutation.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="learned recursion, backtracking using permutation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/binary_search_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/recursion/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730042212633</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="learned recursion, backtracking using permutation">
+      <option name="closed" value="true" />
+      <created>1730246474829</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1730246474829</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -483,7 +493,8 @@
     <MESSAGE value="added prims algo for finding MST" />
     <MESSAGE value="added comments and a bit explantions in prims algo for finding MST" />
     <MESSAGE value="learned min steps for knight from source to destination" />
-    <option name="LAST_COMMIT_MESSAGE" value="learned min steps for knight from source to destination" />
+    <MESSAGE value="learned recursion, backtracking using permutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="learned recursion, backtracking using permutation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -497,12 +508,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_solving/recursion/permutation.py</url>
+          <url>file://$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_solving/recursion/permutation.py</url>
+          <url>file://$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
