@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="learned recursion, backtracking using permutation">
+      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_backtrack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/binary_search_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/algo_expert/find_closest_value.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/recursion/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,27 +78,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/algo_expert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/algo_expert/binary_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,29 +149,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="[Local] problem_solving.algo_expert.binary_search.binarySearch" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
-      <option name="credentialProviderId" />
-      <option name="regionId" value="us-east-1" />
-      <option name="debugHost" value="localhost" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" value="problem_solving.algo_expert.binary_search.binarySearch" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="128" />
-      <option name="runtime" value="python3.7" />
-      <option name="templateFile" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="false" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" />
-        <option name="additionalLocalArgs" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" />
-        <option name="skipImagePull" value="false" />
-      </sam>
+    <configuration name="Python tests for problem_solving.tests.test_backtrack.test_permutation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;problem_solving.tests.test_backtrack.test_permutation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_backtrack.test_permutation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_backtrack.test_permutation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for problem_solving" type="tests" factoryName="py.test" nameIsGenerated="true">
@@ -214,18 +195,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.articulation" />
-      <item itemvalue="Python.binary_search" />
       <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
       <item itemvalue="Python.prims_algo" />
       <item itemvalue="Python.test_reverse_linked_list" />
       <item itemvalue="Python tests.pytest for problem_solving" />
+      <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
+      <item itemvalue="Python tests.Python tests for test_backtrack.test_permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
+        <item itemvalue="Python tests.Python tests for test_backtrack.test_permutation" />
         <item itemvalue="Python.prims_algo" />
         <item itemvalue="Python.test_reverse_linked_list" />
         <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
-        <item itemvalue="Python.binary_search" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730246474829</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="learned recursion, backtracking using permutation">
+      <option name="closed" value="true" />
+      <created>1730246673482</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1730246673482</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">

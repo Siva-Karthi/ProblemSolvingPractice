@@ -44,6 +44,8 @@
 
 def permutation_recursion_backtracking_framework(array):
     res = []
+    if not array:
+        return res
     selected = {i: False for i in array}
     helper(array, [], selected, res)
     return res
