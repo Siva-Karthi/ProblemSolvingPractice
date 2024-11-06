@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="learned recursion, backtracking using permutation">
-      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_backtrack.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added unit test for recursion, backtracking using permutation">
+      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/n_queens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_test_n_queens.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +30,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="96cb75b0-7238-4037-867b-3ef46a16488b" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +61,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation">
+  <component name="RunManager" selected="Python tests.Python tests in test_test_n_queens.py">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nth_non_repeating_char_in_a_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="n_queens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heard/nth_non_repeating_char_in_a_string.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/n_queens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,27 +117,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_reverse_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/algo_expert/tests/test_reverse_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,6 +153,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_test_n_queens.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/problem_solving/tests/test_test_n_queens.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for problem_solving" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,20 +185,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.articulation" />
-      <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
+      <item itemvalue="Python.n_queens" />
       <item itemvalue="Python.prims_algo" />
-      <item itemvalue="Python.test_reverse_linked_list" />
       <item itemvalue="Python tests.pytest for problem_solving" />
+      <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
       <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
       <item itemvalue="Python tests.Python tests for test_backtrack.test_permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
+        <item itemvalue="Python.n_queens" />
         <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
         <item itemvalue="Python tests.Python tests for test_backtrack.test_permutation" />
         <item itemvalue="Python.prims_algo" />
-        <item itemvalue="Python.test_reverse_linked_list" />
-        <item itemvalue="Python.nth_non_repeating_char_in_a_string" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730246673482</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added unit test for recursion, backtracking using permutation">
+      <option name="closed" value="true" />
+      <created>1730248178693</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1730248178693</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -485,7 +483,8 @@
     <MESSAGE value="added comments and a bit explantions in prims algo for finding MST" />
     <MESSAGE value="learned min steps for knight from source to destination" />
     <MESSAGE value="learned recursion, backtracking using permutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="learned recursion, backtracking using permutation" />
+    <MESSAGE value="added unit test for recursion, backtracking using permutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added unit test for recursion, backtracking using permutation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
