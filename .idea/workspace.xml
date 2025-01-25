@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added unit test for recursion, backtracking using permutation">
-      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/n_queens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_test_n_queens.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="solved n_queens with backtracking and added tests">
+      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/sudoku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_test_n_queens.py">
+  <component name="RunManager" selected="Python.sudoku">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prims_algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree/prims_algo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/sudoku.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,8 +184,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.articulation" />
+      <item itemvalue="Python.sudoku" />
       <item itemvalue="Python.n_queens" />
-      <item itemvalue="Python.prims_algo" />
       <item itemvalue="Python tests.pytest for problem_solving" />
       <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
       <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
@@ -194,11 +193,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sudoku" />
         <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
         <item itemvalue="Python.n_queens" />
         <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
         <item itemvalue="Python tests.Python tests for test_backtrack.test_permutation" />
-        <item itemvalue="Python.prims_algo" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730248178693</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="solved n_queens with backtracking and added tests">
+      <option name="closed" value="true" />
+      <created>1730897783773</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1730897783773</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -484,7 +491,8 @@
     <MESSAGE value="learned min steps for knight from source to destination" />
     <MESSAGE value="learned recursion, backtracking using permutation" />
     <MESSAGE value="added unit test for recursion, backtracking using permutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added unit test for recursion, backtracking using permutation" />
+    <MESSAGE value="solved n_queens with backtracking and added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved n_queens with backtracking and added tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -508,6 +516,13 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
