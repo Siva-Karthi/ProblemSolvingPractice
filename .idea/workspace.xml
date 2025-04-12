@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="solved sudoku">
-      <change afterPath="$PROJECT_DIR$/problem_solving/tests/test_sudoku_solver.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added unit test for  sudoku solver">
+      <change afterPath="$PROJECT_DIR$/datastructures/disjoint_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datastructures/test_disjoint_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/greedy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +65,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2">
+  <component name="RunManager" selected="Python tests.Python tests for test_disjoint_set.test_init">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,20 +129,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for problem_solving.tests.test_backtrack.test_permutation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;problem_solving.tests.test_backtrack.test_permutation&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +140,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_disjoint_set.test_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_disjoint_set.test_init&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -187,17 +192,17 @@
       <item itemvalue="Python.sudoku" />
       <item itemvalue="Python.n_queens" />
       <item itemvalue="Python tests.pytest for problem_solving" />
+      <item itemvalue="Python tests.Python tests for test_disjoint_set.test_init" />
       <item itemvalue="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" />
       <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
-      <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_disjoint_set.test_init" />
         <item itemvalue="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" />
         <item itemvalue="Python.sudoku" />
         <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
         <item itemvalue="Python.n_queens" />
-        <item itemvalue="Python tests.Python tests for problem_solving.tests.test_backtrack.test_permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -455,11 +460,30 @@
       <option name="project" value="LOCAL" />
       <updated>1737802259017</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added unit test for  sudoku solver">
+      <option name="closed" value="true" />
+      <created>1737802374035</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1737802374035</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -475,7 +499,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="updated .gitignore" />
     <MESSAGE value="practiced product sum problem" />
     <MESSAGE value="practiced find largest 3 integers&#10;Binary Search is WIP" />
     <MESSAGE value="practiced palindrome and branch_sums" />
@@ -500,7 +523,8 @@
     <MESSAGE value="added unit test for recursion, backtracking using permutation" />
     <MESSAGE value="solved n_queens with backtracking and added tests" />
     <MESSAGE value="solved sudoku" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved sudoku" />
+    <MESSAGE value="added unit test for  sudoku solver" />
+    <option name="LAST_COMMIT_MESSAGE" value="added unit test for  sudoku solver" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
