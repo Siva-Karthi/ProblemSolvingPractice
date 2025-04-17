@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added unit test for  sudoku solver">
-      <change afterPath="$PROJECT_DIR$/datastructures/disjoint_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datastructures/test_disjoint_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/greedy/__init__.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests">
+      <change afterPath="$PROJECT_DIR$/datastructures/segment_trees.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/itoa-convert-int-to-str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/matrix_diagonal_sum-LC-1572.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sivas/PycharmProjects/ProblemSolvingPractice/problem_solving",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem_solving" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
@@ -468,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737802374035</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests">
+      <option name="closed" value="true" />
+      <created>1744457395549</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1744457395549</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -499,7 +508,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practiced product sum problem" />
     <MESSAGE value="practiced find largest 3 integers&#10;Binary Search is WIP" />
     <MESSAGE value="practiced palindrome and branch_sums" />
     <MESSAGE value="practiced DFS" />
@@ -524,7 +532,8 @@
     <MESSAGE value="solved n_queens with backtracking and added tests" />
     <MESSAGE value="solved sudoku" />
     <MESSAGE value="added unit test for  sudoku solver" />
-    <option name="LAST_COMMIT_MESSAGE" value="added unit test for  sudoku solver" />
+    <MESSAGE value="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
