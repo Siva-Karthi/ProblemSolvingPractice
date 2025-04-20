@@ -1,4 +1,7 @@
+# https://leetcode.com/problems/palindromic-substrings/?source=submission-ac
 class Solution:
+    dp_table = None
+
     def check_palindrome(self, s, l, r, ):
         ptr1 = l
         ptr2 = r
@@ -10,27 +13,22 @@ class Solution:
         return 1
 
     def countSubstrings(self, s: str) -> int:
-        """
-        len 1, 2, 3
-        all final use - 2 ptrs
-        seems logic is same better to use recursion
-        like s, e
-        """
         n = len(s)
-        if n == 0:
-            return 0
-        elif n == 1:
-            return 1
+        dp = [[0 for _ in range(n)] for _ in range(n)]
+        count = 0
+        for i in range(n):
+            dp[i][i] = 1
+            count += 1
 
-        sub_palindromes_cnt = n
-
-        for i in range(2, n):  # sub len
-            for j in range(0, n - i + 1):  # start index - [(0,1)]
-                sub_palindromes_cnt += self.check_palindrome(s, j, j + i - 1)  # [(0,1 ),(1,2)]
-        sub_palindromes_cnt += self.check_palindrome(s, 0, n - 1)
-        return sub_palindromes_cnt
-
-
-if __name__ == '__main__':
-    s = "ayeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah"
-    print(Solution().countSubstrings(s))
+        for l in range(1, n):  # length 1 to n
+            for i in range(0, n - l):  # start index
+                j = i + l
+                if l == 1:
+                    if s[i] == s[j]:
+                        dp[i][j] = 1
+                        count += 1
+                else:
+                    if s[i] == s[j] and (dp[i + 1][j - 1] > 0):
+                        dp[i][j] = dp[i + 1][j - 1] + 1
+                        count += 1
+        return count
