@@ -7,11 +7,16 @@
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced dp problem - sub palindromes">
       <change afterPath="$PROJECT_DIR$/fractional_dp.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell_test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reverse_words_in_string.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/str_problem.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sum_pf_subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/sub_string_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/sub_string_palindromes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +69,11 @@
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem_solving" />
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_disjoint_set.test_init">
+  <component name="RunManager" selected="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,27 +87,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="n_queens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/n_queens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,6 +114,20 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;problem_solving.max_weight_for_barbell_test.test_get_max_weights&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -192,19 +191,19 @@
     <list>
       <item itemvalue="Python.articulation" />
       <item itemvalue="Python.sudoku" />
-      <item itemvalue="Python.n_queens" />
       <item itemvalue="Python tests.pytest for problem_solving" />
+      <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
       <item itemvalue="Python tests.Python tests for test_disjoint_set.test_init" />
       <item itemvalue="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" />
       <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
         <item itemvalue="Python tests.Python tests for test_disjoint_set.test_init" />
         <item itemvalue="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" />
         <item itemvalue="Python.sudoku" />
         <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
-        <item itemvalue="Python.n_queens" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745133323169</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="practiced dp problem - sub palindromes">
+      <option name="closed" value="true" />
+      <created>1745139987703</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1745139987703</updated>
+    </task>
+    <task id="LOCAL-00041" summary="practiced dp problem - sub palindromes">
+      <option name="closed" value="true" />
+      <created>1745139990173</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1745139990173</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">

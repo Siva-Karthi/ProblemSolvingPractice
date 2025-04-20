@@ -68,4 +68,72 @@ def helper(array, current, selected, res):
         current.pop()
 
 
+def combine(n, k):
+    result = []
+
+    def backtrack(start, path):
+        if len(path) == k:
+            result.append(path[:])
+            return
+        for i in range(start, n + 1):
+            path.append(i)
+            backtrack(i + 1, path)
+            path.pop()
+
+    backtrack(1, [])
+    return result
 print(permutation_recursion_backtracking_framework([1, 2, 3]))
+print("Combinations of 4 choose 2:", combine(4, 2))
+
+
+def my_permutaion(arr):
+    res = []
+    if not arr:
+        return res
+    selected = {i: False for i in arr}
+    my_helper(arr, selected, [], res)
+    return res
+
+
+def my_helper(arr, selected, current, res):
+    # base
+    if len(current) == len(arr):
+        res.append(current[:])
+    # explore choices
+    for i in arr:
+        #  validate and select choices
+        if selected[i]:
+            continue
+        selected[i] = True
+        current.append(i)
+        # select 1 option and then unselect
+        my_helper(arr, selected, current, res)
+        # unselect
+        selected[i] = False
+        current.pop()
+
+
+print("my_permutaion = ", my_permutaion([1, 2, 3]))
+
+
+def my_powset(arr):
+    res = []
+    my_powset_helper(arr, 0, [], res)
+    return res
+
+
+def my_powset_helper(arr, idx, current, res):
+    # base condition
+    if idx == len(arr):
+        res.append(current[:])
+        return
+    # explore options
+    # validate and select - here include
+    current.append(arr[idx])
+    my_powset_helper(arr, idx + 1, current, res)
+    # unselect - here exclude
+    current.pop()
+    my_powset_helper(arr, idx + 1, current, res)
+
+
+print("my_powset_helper = ", my_powset([1, 2, 3]))
