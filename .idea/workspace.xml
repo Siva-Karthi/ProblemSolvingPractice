@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced str problems - sub palindromes">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced dp problem - sub palindromes">
+      <change afterPath="$PROJECT_DIR$/fractional_dp.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/str_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum_pf_subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745122467383</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="practiced dp problem - sub palindromes">
+      <option name="closed" value="true" />
+      <created>1745133323169</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1745133323169</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -538,7 +549,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="updated closest pair question" />
     <MESSAGE value="added circleci" />
     <MESSAGE value="practiced moving element to the end in the array" />
     <MESSAGE value="practiced nth non repeating char from a sting" />
@@ -563,7 +573,8 @@
     <MESSAGE value="practised segment trees" />
     <MESSAGE value="practised fractional knapsack using greedy" />
     <MESSAGE value="practiced str problems - sub palindromes" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced str problems - sub palindromes" />
+    <MESSAGE value="practiced dp problem - sub palindromes" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced dp problem - sub palindromes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
