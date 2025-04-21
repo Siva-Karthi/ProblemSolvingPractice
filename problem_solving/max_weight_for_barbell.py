@@ -31,6 +31,7 @@ def get_max_weights(weights, maxCapacity):
     :return:
     """
     n = len(weights)
+    weights.sort()
     max_weight = 0
     dp = [[0 for _ in range(maxCapacity + 1)] for _ in range(n)]
     for i in range(n):  # row
