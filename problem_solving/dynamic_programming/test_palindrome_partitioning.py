@@ -1,0 +1,3 @@
+from .palindrome_partitioning import palindromePartitioningMinCuts
+
+palindromePartitioningMinCuts

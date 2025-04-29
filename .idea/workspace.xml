@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced dp problem - sub palindromes">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced dp problem - added new problems rotate array k times and max profit with k transations">
       <change afterPath="$PROJECT_DIR$/fractional_dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/palindrome_partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/test_palindrome_partitioning.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell_test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reverse_words_in_string.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/str_problem.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sum_pf_subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/sub_string_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/sub_string_palindromes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights">
+  <component name="RunManager" selected="Python tests.Python tests for dynamic_programming.test_large">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,25 +92,74 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for dynamic_programming.test_base (1)" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/sudoku.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dynamic_programming&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dynamic_programming.test_base" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dynamic_programming&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dynamic_programming.test_large" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dynamic_programming.test_large&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dynamic_programming.test_small1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dynamic_programming.test_small1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dynamic_programming.test_small2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dynamic_programming.test_small2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -128,48 +174,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;problem_solving.max_weight_for_barbell_test.test_get_max_weights&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_disjoint_set.test_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_disjoint_set.test_init&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_test_n_queens.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/problem_solving/tests/test_test_n_queens.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for problem_solving" type="tests" factoryName="py.test" nameIsGenerated="true">
@@ -188,22 +192,41 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_palindrome_partitioning.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/Python" />
+      <option name="SDK_NAME" value="Python 3.9 (ProblemSolvingPractice)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/problem_solving/dynamic_programming/test_palindrome_partitioning.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.articulation" />
-      <item itemvalue="Python.sudoku" />
+      <item itemvalue="Python tests.Python tests for dynamic_programming.test_base (1)" />
       <item itemvalue="Python tests.pytest for problem_solving" />
+      <item itemvalue="Python tests.pytest in test_palindrome_partitioning.py" />
+      <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
+      <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
+      <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
+      <item itemvalue="Python tests.Python tests for dynamic_programming.test_base" />
       <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
-      <item itemvalue="Python tests.Python tests for test_disjoint_set.test_init" />
-      <item itemvalue="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" />
-      <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
+        <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
+        <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
+        <item itemvalue="Python tests.Python tests for dynamic_programming.test_base" />
         <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
-        <item itemvalue="Python tests.Python tests for test_disjoint_set.test_init" />
-        <item itemvalue="Python tests.Python tests for problem_solving.tests.test_sudoku_solver.test_nonAttackingQueens_positive_2" />
-        <item itemvalue="Python.sudoku" />
-        <item itemvalue="Python tests.Python tests in test_test_n_queens.py" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +556,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745139990173</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="practiced dp problem - max weights can be added to barbell with max capacity">
+      <option name="closed" value="true" />
+      <created>1745170583188</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1745170583189</updated>
+    </task>
+    <task id="LOCAL-00043" summary="practiced dp problem - added new problems rotate array k times and max profit with k transations">
+      <option name="closed" value="true" />
+      <created>1745229118636</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1745229118636</updated>
+    </task>
+    <task id="LOCAL-00044" summary="practiced dp problem - added new problems rotate array k times and max profit with k transations">
+      <option name="closed" value="true" />
+      <created>1745503829104</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1745503829104</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -551,11 +598,72 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b0ad0c60-771c-4a46-9d46-39338ad2cc12" value="TOOL_WINDOW" />
+        <entry key="e1f2e857-e421-4535-8fea-6d562ea9c8c6" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+        <entry key="b0ad0c60-771c-4a46-9d46-39338ad2cc12">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="e1f2e857-e421-4535-8fea-6d562ea9c8c6">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
           </value>
         </entry>
       </map>
@@ -564,9 +672,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added circleci" />
-    <MESSAGE value="practiced moving element to the end in the array" />
-    <MESSAGE value="practiced nth non repeating char from a sting" />
     <MESSAGE value="practiced reverse linked list" />
     <MESSAGE value="took DFS and BFS session" />
     <MESSAGE value="took BFS session" />
@@ -589,7 +694,10 @@
     <MESSAGE value="practised fractional knapsack using greedy" />
     <MESSAGE value="practiced str problems - sub palindromes" />
     <MESSAGE value="practiced dp problem - sub palindromes" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced dp problem - sub palindromes" />
+    <MESSAGE value="practiced dp problem - max weights can be added to barbell with max capacity" />
+    <MESSAGE value="practiced dp problem - added new problems rotate array k times and max profit with k transations" />
+    <MESSAGE value="practiced dp problem - practised new problems levenshtein distance and min no of ways to change coin &#10;&#10;Signed-off-by: sivas &lt;sivasubramani.612@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced dp problem - added new problems rotate array k times and max profit with k transations" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -611,6 +719,16 @@
           <url>file://$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
