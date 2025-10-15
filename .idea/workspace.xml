@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced dp problem - added new problems rotate array k times and max profit with k transations">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced rain water trapping">
+      <change afterPath="$PROJECT_DIR$/closest_pair_higgs_boston_particle.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/fractional_dp.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/palindrome_partitioning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/test_palindrome_partitioning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/max_profit_with_k_transactions.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/str_problem.py" afterDir="false" />
@@ -37,6 +37,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2023.2/python_stubs/1828254783/builtins.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/venv/lib/python3.9/site-packages/matplotlib/pyplot.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -54,12 +58,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sivas/PycharmProjects/ProblemSolvingPractice/problem_solving&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sivas/PycharmProjects/ProblemSolvingPractice/rain_water_trapping&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rain_water_trapping" />
       <recent name="$PROJECT_DIR$/problem_solving" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
@@ -70,7 +75,7 @@
       <recent name="$PROJECT_DIR$/Trees/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for dynamic_programming.test_large">
+  <component name="RunManager" selected="Python.articulation">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for dynamic_programming.test_base (1)" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+    <configuration name="Python tests for dynamic_programming" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +111,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for dynamic_programming.test_base" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for dynamic_programming" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dynamic_programming&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dynamic_programming.test_base (1)" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,13 +230,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.articulation" />
+      <item itemvalue="Python tests.Python tests for dynamic_programming" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_base (1)" />
       <item itemvalue="Python tests.pytest for problem_solving" />
       <item itemvalue="Python tests.pytest in test_palindrome_partitioning.py" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
-      <item itemvalue="Python tests.Python tests for dynamic_programming.test_base" />
       <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
     </list>
     <recent_temporary>
@@ -225,7 +244,6 @@
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
-        <item itemvalue="Python tests.Python tests for dynamic_programming.test_base" />
         <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
       </list>
     </recent_temporary>
@@ -580,7 +598,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745503829104</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="practiced dp problem - palindrom partitioning min cuts">
+      <option name="closed" value="true" />
+      <created>1745923113575</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1745923113575</updated>
+    </task>
+    <task id="LOCAL-00046" summary="practiced a scheduler using min heap">
+      <option name="closed" value="true" />
+      <created>1746605292510</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1746605292510</updated>
+    </task>
+    <task id="LOCAL-00047" summary="practiced rain water trapping">
+      <option name="closed" value="true" />
+      <created>1753614099113</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1753614099113</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -672,9 +714,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practiced reverse linked list" />
-    <MESSAGE value="took DFS and BFS session" />
-    <MESSAGE value="took BFS session" />
     <MESSAGE value="fixed DFS iterative undirected connected graph" />
     <MESSAGE value="added code for finding articulation points on a un directed graph" />
     <MESSAGE value="articulation_points.py added explantion" />
@@ -697,7 +736,10 @@
     <MESSAGE value="practiced dp problem - max weights can be added to barbell with max capacity" />
     <MESSAGE value="practiced dp problem - added new problems rotate array k times and max profit with k transations" />
     <MESSAGE value="practiced dp problem - practised new problems levenshtein distance and min no of ways to change coin &#10;&#10;Signed-off-by: sivas &lt;sivasubramani.612@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced dp problem - added new problems rotate array k times and max profit with k transations" />
+    <MESSAGE value="practiced dp problem - palindrom partitioning min cuts" />
+    <MESSAGE value="practiced a scheduler using min heap" />
+    <MESSAGE value="practiced rain water trapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced rain water trapping" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -719,16 +761,6 @@
           <url>file://$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
