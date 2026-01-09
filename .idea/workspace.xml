@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced rain water trapping">
-      <change afterPath="$PROJECT_DIR$/closest_pair_higgs_boston_particle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fractional_dp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/max_profit_with_k_transactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/greedy/job_sequencing_with_deadlines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/knights_tour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/str_problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sum_pf_subsets.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="worked on few problems">
+      <change afterPath="$PROJECT_DIR$/max_traversal_within_n_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/house_robber1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -622,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753614099113</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="worked on few problems">
+      <option name="closed" value="true" />
+      <created>1760519609977</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1760519609977</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -714,7 +716,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="fixed DFS iterative undirected connected graph" />
     <MESSAGE value="added code for finding articulation points on a un directed graph" />
     <MESSAGE value="articulation_points.py added explantion" />
     <MESSAGE value="articulation_points.py added explantion&#10;added disjoint set" />
@@ -739,7 +740,8 @@
     <MESSAGE value="practiced dp problem - palindrom partitioning min cuts" />
     <MESSAGE value="practiced a scheduler using min heap" />
     <MESSAGE value="practiced rain water trapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced rain water trapping" />
+    <MESSAGE value="worked on few problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on few problems" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
