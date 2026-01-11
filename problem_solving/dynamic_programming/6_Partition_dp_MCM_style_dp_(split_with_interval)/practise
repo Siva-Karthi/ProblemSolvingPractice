@@ -1,0 +1,29 @@
+"""
+
+Matrix Chain Multiplication
+
+min(dp[i][k] + dp[k+1][j] + cost_mult(i, k, j))
+
+Burst Balloons
+
+max(dp[i][k-1] + dp[k+1][j] + nums[i-1]*nums[k]*nums[j+1])
+
+
+
+ Note: Here k is the last balloon burst.
+
+Minimum Cost to Cut a Stick
+
+min(dp[i][k] + dp[k][j]) + (cuts[j] - cuts[i])
+
+Palindrome Partitioning II
+
+min(dp[k] + 1) if s[k+1...i] is a palindrome.
+
+Boolean Parenthesization
+
+(True[i][k] * True[k+1][j]) + ... (Summing ways to get
+"""
+
+https://gemini.google.com/share/ed90d600784c
+

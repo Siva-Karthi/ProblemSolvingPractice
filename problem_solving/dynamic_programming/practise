@@ -1,0 +1,74 @@
+This is a fantastic roadmap for mastering Dynamic Programming. To get the most out of these, try to draw the DP table on paper for a small input before you start coding.
+
+Here are two classic problems for each category, ranging from **"Standard"** to **"Slightly Challenging."**
+
+---
+
+## 1. 0/1 Knapsack (Prefix + Capacity)
+
+* **Subset Sum:** Given a set of non-negative integers and a value `S`, determine if there is a subset that adds up to exactly `S`.
+* **Partition Equal Subset Sum:** Can you split an array into two subsets such that the sum of elements in both subsets is equal?
+
+---
+
+## 2. Prefix DP (Linear / 1D)
+
+* **House Robber:** You are a robber planning to rob houses along a street. Each house has a certain amount of money, but you cannot rob two adjacent houses. What is the max loot?
+* **Decode Ways:** A message containing letters from A-Z is encoded into numbers (A=1, B=2...). Given a string of digits, determine the total number of ways to decode it.
+
+---
+
+## 3. Range DP (Intervals / Merging)
+
+* **Longest Palindromic Subsequence:** Given a string, find the length of the longest subsequence that is a palindrome. *(Note: This uses the upper-triangle table.)*
+* **Burst Balloons:** You have `n` balloons. If you burst balloon `i`, you get `nums[i-1] * nums[i] * nums[i+1]` coins. Find the maximum coins you can collect by bursting them all.
+
+---
+
+## 4. Subsequence DP (Jump / Two-String)
+
+* **Longest Common Subsequence:** Given two strings, find the length of the longest subsequence present in both.
+* **Longest Increasing Subsequence:** Find the length of the longest strictly increasing subsequence in an array. *(Remember the `O(N^2)` "jump" logic first!)*
+
+also do
+longest common polindromic subsequence
+min palindromic cut
+
+---
+
+## 5. Stock-Based DP (State Machine)
+
+* **Best Time to Buy and Sell Stock with Cooldown:** You can complete as many transactions as you like, but after selling, you cannot buy stock on the next day (1-day cooldown).
+* **Best Time to Buy and Sell Stock IV:** You are allowed to complete at most `k` transactions. *(This combines stock states with a “k-count” prefix.)*
+
+---
+
+## 6. Tree DP (Hierarchy)
+
+* **Diameter of Binary Tree:** Find the length of the longest path between any two nodes in a tree.
+* **Binary Tree Maximum Path Sum:** Find the maximum path sum in a binary tree (the path can start and end at any node).
+
+---
+
+## 7. Bitmask DP (Sets / Permutations)
+
+* **Can I Win?:** Two players take turns picking integers from `1` to `N` to reach a total. Using a bitmask to track “used” numbers, can the first player force a win?
+* **Smallest Sufficient Team:** Given a list of required skills and a list of people with skills, find the smallest team that covers all required skills using a bitmask for the skills.
+
+---
+
+## Pro-Tip for Practice
+
+If you get stuck, ask yourself:
+
+* **What is my state?** (e.g., `dp[i][j]` is the answer for the range `i` to `j`)
+* **What is my base case?** (the smallest possible version of the problem)
+* **What is my transition?** (how do I use previous table values to get the current one?)
+
+---
+
+**Which of these would you like to see a step-by-step table trace for first?**
+
+
+# check striver patterns
+https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems
