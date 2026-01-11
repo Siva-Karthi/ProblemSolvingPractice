@@ -1,6 +1,6 @@
 import pytest
 
-from . import get_max_weights  # Replace `your_module` with the actual file name (without `.py`)
+from .max_weight_for_barbell import get_max_weights
 
 
 @pytest.mark.parametrize("weights, maxCapacity, expected", [
