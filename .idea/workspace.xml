@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="worked on few problems">
-      <change afterPath="$PROJECT_DIR$/max_traversal_within_n_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/house_robber1.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practicsed the palindrom partitioning">
+      <change afterPath="$PROJECT_DIR$/okta_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/phone_number_letter_combo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +53,27 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sivas/PycharmProjects/ProblemSolvingPractice/rain_water_trapping&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sivas/PycharmProjects/ProblemSolvingPractice/problem_solving&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rain_water_trapping" />
       <recent name="$PROJECT_DIR$/problem_solving" />
+      <recent name="$PROJECT_DIR$/rain_water_trapping" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/problem_solving" />
-      <recent name="$PROJECT_DIR$/Trees/tests" />
+      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval" />
+      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence" />
+      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/7_state_machine_based_dp_or_stock_dp" />
+      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)" />
+      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.articulation">
+  <component name="RunManager">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,20 +110,6 @@
       <method v="2" />
     </configuration>
     <configuration name="Python tests for dynamic_programming" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;dynamic_programming&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for dynamic_programming.test_base (1)" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,6 +165,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for problem_solving.dynamic_programming" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;problem_solving.dynamic_programming&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +190,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;problem_solving.max_weight_for_barbell_test.test_get_max_weights&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for problem_solving.subsequence" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;problem_solving.subsequence&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -218,14 +236,15 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/problem_solving/dynamic_programming/test_palindrome_partitioning.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/test_palindrome_partitioning.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.articulation" />
       <item itemvalue="Python tests.Python tests for dynamic_programming" />
-      <item itemvalue="Python tests.Python tests for dynamic_programming.test_base (1)" />
+      <item itemvalue="Python tests.Python tests for problem_solving.dynamic_programming" />
+      <item itemvalue="Python tests.Python tests for problem_solving.subsequence" />
       <item itemvalue="Python tests.pytest for problem_solving" />
       <item itemvalue="Python tests.pytest in test_palindrome_partitioning.py" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
@@ -235,10 +254,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
-        <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
       </list>
     </recent_temporary>
   </component>
@@ -448,70 +467,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00027" summary="learned min steps for knight from source to destination">
-      <option name="closed" value="true" />
-      <created>1730042212633</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1730042212633</updated>
-    </task>
-    <task id="LOCAL-00028" summary="learned recursion, backtracking using permutation">
-      <option name="closed" value="true" />
-      <created>1730246474829</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1730246474829</updated>
-    </task>
-    <task id="LOCAL-00029" summary="learned recursion, backtracking using permutation">
-      <option name="closed" value="true" />
-      <created>1730246673482</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1730246673482</updated>
-    </task>
-    <task id="LOCAL-00030" summary="added unit test for recursion, backtracking using permutation">
-      <option name="closed" value="true" />
-      <created>1730248178693</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1730248178693</updated>
-    </task>
-    <task id="LOCAL-00031" summary="solved n_queens with backtracking and added tests">
-      <option name="closed" value="true" />
-      <created>1730897783773</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1730897783773</updated>
-    </task>
-    <task id="LOCAL-00032" summary="solved sudoku">
-      <option name="closed" value="true" />
-      <created>1737802259017</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1737802259017</updated>
-    </task>
-    <task id="LOCAL-00033" summary="added unit test for  sudoku solver">
-      <option name="closed" value="true" />
-      <created>1737802374035</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1737802374035</updated>
-    </task>
-    <task id="LOCAL-00034" summary="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests">
-      <option name="closed" value="true" />
-      <created>1744457395549</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1744457395549</updated>
-    </task>
     <task id="LOCAL-00035" summary="practised itoa-convert-int-to-str.py and matrix diagonal sum">
       <option name="closed" value="true" />
       <created>1744850822409</created>
@@ -624,7 +579,79 @@
       <option name="project" value="LOCAL" />
       <updated>1760519609977</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="worked on max traveral and house robber 1 which is sequence dp (with condition)">
+      <option name="closed" value="true" />
+      <created>1767985845676</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1767985845677</updated>
+    </task>
+    <task id="LOCAL-00050" summary="practised sum of subsets kadanes algo">
+      <option name="closed" value="true" />
+      <created>1768124698240</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1768124698241</updated>
+    </task>
+    <task id="LOCAL-00051" summary="practised sum of subsets kadanes algo">
+      <option name="closed" value="true" />
+      <created>1768127679663</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1768127679663</updated>
+    </task>
+    <task id="LOCAL-00052" summary="practised sum of subsets kadanes algo">
+      <option name="closed" value="true" />
+      <created>1768132845000</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1768132845001</updated>
+    </task>
+    <task id="LOCAL-00053" summary="practised sum of subsets kadanes algo">
+      <option name="closed" value="true" />
+      <created>1768132853951</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1768132853951</updated>
+    </task>
+    <task id="LOCAL-00054" summary="practised longest palindromikc sub sequence">
+      <option name="closed" value="true" />
+      <created>1768154389438</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1768154389438</updated>
+    </task>
+    <task id="LOCAL-00055" summary="organise the DP problems based on the patterns">
+      <option name="closed" value="true" />
+      <created>1768158226383</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1768158226383</updated>
+    </task>
+    <task id="LOCAL-00056" summary="added striver DP patterns link">
+      <option name="closed" value="true" />
+      <created>1768160205535</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1768160205535</updated>
+    </task>
+    <task id="LOCAL-00057" summary="practicsed the palindrom partitioning">
+      <option name="closed" value="true" />
+      <created>1768162658255</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1768162658255</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -644,12 +671,38 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
+        <entry key="054d1ff1-9154-457a-90dc-3b1ad8f71fea" value="TOOL_WINDOW" />
         <entry key="b0ad0c60-771c-4a46-9d46-39338ad2cc12" value="TOOL_WINDOW" />
         <entry key="e1f2e857-e421-4535-8fea-6d562ea9c8c6" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="054d1ff1-9154-457a-90dc-3b1ad8f71fea">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -716,12 +769,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added code for finding articulation points on a un directed graph" />
-    <MESSAGE value="articulation_points.py added explantion" />
-    <MESSAGE value="articulation_points.py added explantion&#10;added disjoint set" />
-    <MESSAGE value="added kruskal algo using disjoint set" />
-    <MESSAGE value="added prims algo for finding MST" />
-    <MESSAGE value="added comments and a bit explantions in prims algo for finding MST" />
     <MESSAGE value="learned min steps for knight from source to destination" />
     <MESSAGE value="learned recursion, backtracking using permutation" />
     <MESSAGE value="added unit test for recursion, backtracking using permutation" />
@@ -741,7 +788,13 @@
     <MESSAGE value="practiced a scheduler using min heap" />
     <MESSAGE value="practiced rain water trapping" />
     <MESSAGE value="worked on few problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on few problems" />
+    <MESSAGE value="worked on max traveral and house robber 1 which is sequence dp (with condition)" />
+    <MESSAGE value="practised sum of subsets kadanes algo" />
+    <MESSAGE value="practised longest palindromikc sub sequence" />
+    <MESSAGE value="organise the DP problems based on the patterns" />
+    <MESSAGE value="added striver DP patterns link" />
+    <MESSAGE value="practicsed the palindrom partitioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="practicsed the palindrom partitioning" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -763,6 +816,16 @@
           <url>file://$PROJECT_DIR$/problem_solving/recursion_and_backtracking/permutation.py</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence/longest_increasing_subsequence.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/longest_polindramic_subsequences.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
