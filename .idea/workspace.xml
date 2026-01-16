@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practicsed the palindrom partitioning">
-      <change afterPath="$PROJECT_DIR$/okta_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/recursion_and_backtracking/phone_number_letter_combo.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practised backtracking">
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/decode_ways.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,22 +465,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00035" summary="practised itoa-convert-int-to-str.py and matrix diagonal sum">
-      <option name="closed" value="true" />
-      <created>1744850822409</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1744850822409</updated>
-    </task>
-    <task id="LOCAL-00036" summary="practised segment trees">
-      <option name="closed" value="true" />
-      <created>1745045923091</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1745045923091</updated>
-    </task>
     <task id="LOCAL-00037" summary="practised fractional knapsack using greedy">
       <option name="closed" value="true" />
       <created>1745052602348</created>
@@ -651,7 +633,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768162658255</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added okta test">
+      <option name="closed" value="true" />
+      <created>1768590794256</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1768590794257</updated>
+    </task>
+    <task id="LOCAL-00059" summary="practised backtracking">
+      <option name="closed" value="true" />
+      <created>1768590834139</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1768590834139</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -672,6 +670,7 @@
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="054d1ff1-9154-457a-90dc-3b1ad8f71fea" value="TOOL_WINDOW" />
+        <entry key="57320363-3875-42e3-b372-38b91e995363" value="TOOL_WINDOW" />
         <entry key="b0ad0c60-771c-4a46-9d46-39338ad2cc12" value="TOOL_WINDOW" />
         <entry key="e1f2e857-e421-4535-8fea-6d562ea9c8c6" value="TOOL_WINDOW" />
       </map>
@@ -679,6 +678,31 @@
     <option name="TAB_STATES">
       <map>
         <entry key="054d1ff1-9154-457a-90dc-3b1ad8f71fea">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="57320363-3875-42e3-b372-38b91e995363">
           <value>
             <State>
               <option name="FILTERS">
@@ -769,8 +793,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="learned min steps for knight from source to destination" />
-    <MESSAGE value="learned recursion, backtracking using permutation" />
     <MESSAGE value="added unit test for recursion, backtracking using permutation" />
     <MESSAGE value="solved n_queens with backtracking and added tests" />
     <MESSAGE value="solved sudoku" />
@@ -794,7 +816,9 @@
     <MESSAGE value="organise the DP problems based on the patterns" />
     <MESSAGE value="added striver DP patterns link" />
     <MESSAGE value="practicsed the palindrom partitioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="practicsed the palindrom partitioning" />
+    <MESSAGE value="added okta test" />
+    <MESSAGE value="practised backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="practised backtracking" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
