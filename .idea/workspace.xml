@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practising dp">
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/5_count_dp/climbing_stairs.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practised count dp">
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/decode_ways.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp/decode_ways.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/5_count_dp/climbing_stairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp/climbing_stairs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,14 +467,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00038" summary="practiced str problems - sub palindromes">
-      <option name="closed" value="true" />
-      <created>1745122467383</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1745122467383</updated>
-    </task>
     <task id="LOCAL-00039" summary="practiced dp problem - sub palindromes">
       <option name="closed" value="true" />
       <created>1745133323169</created>
@@ -649,7 +643,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768591037909</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="practised count dp">
+      <option name="closed" value="true" />
+      <created>1768634256939</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1768634256939</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -793,7 +795,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="solved n_queens with backtracking and added tests" />
     <MESSAGE value="solved sudoku" />
     <MESSAGE value="added unit test for  sudoku solver" />
     <MESSAGE value="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests" />
@@ -818,7 +819,8 @@
     <MESSAGE value="added okta test" />
     <MESSAGE value="practised backtracking" />
     <MESSAGE value="practising dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="practising dp" />
+    <MESSAGE value="practised count dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="practised count dp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
