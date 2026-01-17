@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practised backtracking">
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/decode_ways.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practising dp">
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/5_count_dp/climbing_stairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -465,14 +465,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00037" summary="practised fractional knapsack using greedy">
-      <option name="closed" value="true" />
-      <created>1745052602348</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1745052602348</updated>
-    </task>
     <task id="LOCAL-00038" summary="practiced str problems - sub palindromes">
       <option name="closed" value="true" />
       <created>1745122467383</created>
@@ -649,7 +641,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768590834139</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="practising dp">
+      <option name="closed" value="true" />
+      <created>1768591037909</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1768591037909</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -793,7 +793,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added unit test for recursion, backtracking using permutation" />
     <MESSAGE value="solved n_queens with backtracking and added tests" />
     <MESSAGE value="solved sudoku" />
     <MESSAGE value="added unit test for  sudoku solver" />
@@ -818,7 +817,8 @@
     <MESSAGE value="practicsed the palindrom partitioning" />
     <MESSAGE value="added okta test" />
     <MESSAGE value="practised backtracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="practised backtracking" />
+    <MESSAGE value="practising dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="practising dp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
