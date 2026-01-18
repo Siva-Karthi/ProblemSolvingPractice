@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practising prefix count dp">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practised prefix count dp">
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp/decode_ways.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp/decode_ways.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +64,14 @@
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence" />
-      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/7_state_machine_based_dp_or_stock_dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.decode_ways">
+  <component name="RunManager" selected="Python.burst_baloons">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +85,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interviews/Amazon/articulation_points.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="burst_baloons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,20 +174,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;dynamic_programming.test_large&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for dynamic_programming.test_small1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problem_solving" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;dynamic_programming.test_small1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -261,6 +268,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.articulation" />
+      <item itemvalue="Python.burst_baloons" />
       <item itemvalue="Python.decode_ways" />
       <item itemvalue="Python tests.Python tests for dynamic_programming" />
       <item itemvalue="Python tests.Python tests for problem_solving.dynamic_programming" />
@@ -268,17 +276,16 @@
       <item itemvalue="Python tests.pytest for problem_solving" />
       <item itemvalue="Python tests.pytest in test_palindrome_partitioning.py" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
-      <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
       <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
       <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.burst_baloons" />
         <item itemvalue="Python.decode_ways" />
         <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
-        <item itemvalue="Python tests.Python tests for dynamic_programming.test_small1" />
       </list>
     </recent_temporary>
   </component>
@@ -488,14 +495,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00040" summary="practiced dp problem - sub palindromes">
-      <option name="closed" value="true" />
-      <created>1745139987703</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1745139987703</updated>
-    </task>
     <task id="LOCAL-00041" summary="practiced dp problem - sub palindromes">
       <option name="closed" value="true" />
       <created>1745139990173</created>
@@ -672,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768659374195</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="practised prefix count dp">
+      <option name="closed" value="true" />
+      <created>1768673134298</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1768673134298</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -816,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added unit test for  sudoku solver" />
     <MESSAGE value="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests" />
     <MESSAGE value="practised itoa-convert-int-to-str.py and matrix diagonal sum" />
     <MESSAGE value="practised segment trees" />
@@ -841,7 +847,8 @@
     <MESSAGE value="practising dp" />
     <MESSAGE value="practised count dp" />
     <MESSAGE value="practising prefix count dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="practising prefix count dp" />
+    <MESSAGE value="practised prefix count dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="practised prefix count dp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
