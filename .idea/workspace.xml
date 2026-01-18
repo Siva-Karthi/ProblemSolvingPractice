@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practised prefix count dp">
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practicing MCM style DP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,14 +495,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00041" summary="practiced dp problem - sub palindromes">
-      <option name="closed" value="true" />
-      <created>1745139990173</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1745139990173</updated>
-    </task>
     <task id="LOCAL-00042" summary="practiced dp problem - max weights can be added to barbell with max capacity">
       <option name="closed" value="true" />
       <created>1745170583188</created>
@@ -679,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768673134298</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="practicing MCM style DP">
+      <option name="closed" value="true" />
+      <created>1768744218290</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1768744218291</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -823,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added disjoint set uniont with path compression , union by rank and union by size and added the unit tests" />
     <MESSAGE value="practised itoa-convert-int-to-str.py and matrix diagonal sum" />
     <MESSAGE value="practised segment trees" />
     <MESSAGE value="practised fractional knapsack using greedy" />
@@ -848,7 +847,8 @@
     <MESSAGE value="practised count dp" />
     <MESSAGE value="practising prefix count dp" />
     <MESSAGE value="practised prefix count dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="practised prefix count dp" />
+    <MESSAGE value="practicing MCM style DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="practicing MCM style DP" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

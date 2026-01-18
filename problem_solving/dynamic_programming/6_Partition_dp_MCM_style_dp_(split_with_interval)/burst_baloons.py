@@ -45,6 +45,8 @@ class Solution:
     def maxCoins(self, nums: List[int]) -> int:
         if not nums:
             return 0
+
+        nums = [1] + nums + [1]
         n = len(nums)
         if n == 1:
             return nums[0]
@@ -74,12 +76,16 @@ class Solution:
                       f" and [{start_index}][{end_index - 1}]")
                 # dp[start_index][end_index] = l
 
-                dp[start_index][end_index] = max(dp[start_index - 1][end_index], dp[start_index][end_index - 1])
+                dp[start_index][end_index] = 0
+                for k in range(start_index + 1, end_index):
+                    dp[start_index][end_index] = max(
+                        dp[start_index][end_index],
+                        dp[start_index][k] +
+                        nums[start_index] * nums[k] * nums[end_index] +
+                        dp[k][end_index]
+                    )
 
-        # pprint(dp)
-        for i in range(n):
-            print(dp[i])
-        return dp[0][-1]
+        return dp[0][n - 1]
 
 
 if __name__ == '__main__':
@@ -88,6 +94,7 @@ if __name__ == '__main__':
     # inp = [5,2]
     inp = [5, 2, 1]
     inp = [7, 9, 8, 0, 7, 1, 3, 5, 5, 2, 3]
+    inp = [8, 2, 6, 8, 1]
 
     s = Solution()
     print(s.maxCoins(inp))
