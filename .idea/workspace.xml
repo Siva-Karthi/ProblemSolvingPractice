@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practicing MCM style DP">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced MCM style DP">
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/burst_baloons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)/burst_baloons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.burst_baloons">
+  <component name="RunManager">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,8 +282,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.burst_baloons" />
         <item itemvalue="Python.decode_ways" />
+        <item itemvalue="Python.burst_baloons" />
         <item itemvalue="Python tests.Python tests for problem_solving.max_weight_for_barbell_test.test_get_max_weights" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_large" />
         <item itemvalue="Python tests.Python tests for dynamic_programming.test_small2" />
@@ -495,14 +496,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00042" summary="practiced dp problem - max weights can be added to barbell with max capacity">
-      <option name="closed" value="true" />
-      <created>1745170583188</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1745170583189</updated>
-    </task>
     <task id="LOCAL-00043" summary="practiced dp problem - added new problems rotate array k times and max profit with k transations">
       <option name="closed" value="true" />
       <created>1745229118636</created>
@@ -679,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768744218291</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="practiced MCM style DP">
+      <option name="closed" value="true" />
+      <created>1768744696591</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1768744696591</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -823,7 +824,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practised itoa-convert-int-to-str.py and matrix diagonal sum" />
     <MESSAGE value="practised segment trees" />
     <MESSAGE value="practised fractional knapsack using greedy" />
     <MESSAGE value="practiced str problems - sub palindromes" />
@@ -848,7 +848,8 @@
     <MESSAGE value="practising prefix count dp" />
     <MESSAGE value="practised prefix count dp" />
     <MESSAGE value="practicing MCM style DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="practicing MCM style DP" />
+    <MESSAGE value="practiced MCM style DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced MCM style DP" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -14,11 +14,11 @@ Here are two classic problems for each category, ranging from **"Standard"** to 
 ## 2. Prefix DP (Linear / 1D)
 
 * **House Robber:** You are a robber planning to rob houses along a street. Each house has a certain amount of money, but you cannot rob two adjacent houses. What is the max loot?
-* **Decode Ways:** A message containing letters from A-Z is encoded into numbers (A=1, B=2...). Given a string of digits, determine the total number of ways to decode it.
+* **Decode Ways:** A message containing letters from A-Z is encoded into nuambers (A=1, B=2...). Given a string of digits, determine the total number of ways to decode it.
 
 ---
 
-## 3. Range DP (Intervals / Merging)
+## 3. Range DP (Intervals / Merging) - MCM style
 
 * **Longest Palindromic Subsequence:** Given a string, find the length of the longest subsequence that is a palindrome. *(Note: This uses the upper-triangle table.)*
 * **Burst Balloons:** You have `n` balloons. If you burst balloon `i`, you get `nums[i-1] * nums[i] * nums[i+1]` coins. Find the maximum coins you can collect by bursting them all.
