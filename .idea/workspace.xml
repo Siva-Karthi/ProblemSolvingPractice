@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced MCM style DP">
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/burst_baloons.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced MCM style DP - burst baloons">
+      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/stick_min_cuts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/two_sum_index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/sub_string_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/sub_string_palindromes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell_2026_revision.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell_2026_revision.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,14 +499,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00043" summary="practiced dp problem - added new problems rotate array k times and max profit with k transations">
-      <option name="closed" value="true" />
-      <created>1745229118636</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1745229118636</updated>
-    </task>
     <task id="LOCAL-00044" summary="practiced dp problem - added new problems rotate array k times and max profit with k transations">
       <option name="closed" value="true" />
       <created>1745503829104</created>
@@ -680,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768744696591</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="practiced MCM style DP - burst baloons">
+      <option name="closed" value="true" />
+      <created>1775240894957</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1775240894957</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -824,7 +827,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practised segment trees" />
     <MESSAGE value="practised fractional knapsack using greedy" />
     <MESSAGE value="practiced str problems - sub palindromes" />
     <MESSAGE value="practiced dp problem - sub palindromes" />
@@ -849,7 +851,8 @@
     <MESSAGE value="practised prefix count dp" />
     <MESSAGE value="practicing MCM style DP" />
     <MESSAGE value="practiced MCM style DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced MCM style DP" />
+    <MESSAGE value="practiced MCM style DP - burst baloons" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced MCM style DP - burst baloons" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

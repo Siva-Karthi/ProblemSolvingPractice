@@ -76,3 +76,108 @@ https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programmi
 # check Tushar Roy Dynammic programming series
 
 https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
+
+
+more mcm
+cheap flight with max k stops
+sqrt decomposition
+
+
+### Range interval DP - sub patterns glitches ###
+
+tell me the other problems like this in interval dp?
+
+Perfect — this is exactly how you master patterns for interviews 🔥
+
+I’ll give you a clean, high-signal list of Interval DP problems (no fluff), grouped so you actually remember them.
+
+🧠 Core Pattern (remember this)
+
+All of these reduce to:
+
+dp[i][j] = best over k (dp[i][k] + dp[k][j] + cost)
+🟢 Tier 1 (Must know — same pattern as your problem)
+
+These are direct siblings of stick cutting:
+
+1. 🟡 Burst Balloons
+Problem: Burst Balloons
+Pattern: choose last
+Difficulty: 🔥🔥🔥
+2. 🟡 Matrix Chain Multiplication (MCM)
+Problem: Matrix Chain Multiplication
+Pattern: split point
+This is the original version of this idea
+3. 🟡 Minimum Cost Tree From Leaf Values
+Problem: Minimum Cost Tree From Leaf Values
+Pattern: partition + combine cost
+Twist: cost uses max values
+🟠 Tier 2 (Same DP, different flavor)
+4. 🟠 Palindrome Partitioning II
+Problem: Palindrome Partitioning II
+Pattern: split string at k
+Cost: number of cuts
+5. 🟠 Boolean Parenthesization
+Problem: Boolean Parenthesization Problem
+Pattern: split expression
+Tracks true/false counts
+6. 🟠 Different Ways to Add Parentheses
+Problem: Different Ways to Add Parentheses
+Pattern: split at operators
+Returns all possible results
+🔵 Tier 3 (Advanced / Interview gold)
+7. 🔵 Remove Boxes
+Problem: Remove Boxes
+Pattern: interval DP + extra dimension
+Difficulty: 💀💀💀
+8. 🔵 Strange Printer
+Problem: Strange Printer
+Pattern: merge intervals cleverly
+Very tricky optimization
+9. 🔵 Minimum Score Triangulation of Polygon
+Problem: Minimum Score Triangulation of Polygon
+Pattern: choose triangle (i, k, j)
+Very close to MCM
+🟣 Bonus (same thinking, disguised)
+10. 🟣 Optimal Binary Search Tree
+Problem: Optimal Binary Search Tree
+Pattern: choose root k
+Cost depends on frequency
+11. 🟣 Egg Dropping (variant view)
+Problem: Egg Dropping Problem
+Pattern: choose floor k (decision split)
+🔥 How to recognize this pattern instantly
+
+If you see:
+
+“Try all partitions”
+“Split at k”
+“Cost depends on full segment”
+“Order matters”
+
+👉 🚨 Trigger: Interval DP
+
+⚡ Mental shortcuts (super useful)
+Problem Type	Think
+Cutting / splitting	choose first
+Removing / bursting	choose last
+Expression	split at operator
+Polygon	pick triangle
+String partition	split substring
+🚀 Best way to master (your path)
+
+Since you already did stick cutting:
+
+👉 Do in this order:
+
+Burst Balloons
+MCM
+Triangulation
+Palindrome Partitioning II
+
+After that → you’ll auto-detect this pattern in interviews.
+
+If you want, I can:
+
+👉 Give you a 1-hour drill plan to lock this pattern permanently
+(or walk you through Burst Balloons with same intuition you just built)
