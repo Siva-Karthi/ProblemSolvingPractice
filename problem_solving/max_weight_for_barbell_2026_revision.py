@@ -39,3 +39,12 @@ for w in weights:
         dp[j] = max(dp[j], dp[j - w] + w)
 return dp[maxCapacity]
 """
+
+dp = [0] * (maxCapacity + 1)
+for w in weights:
+    print(f"i = {w}", range(maxCapacity, w - 1, -1), list(range(maxCapacity, w - 1, -1)))
+    for j in range(maxCapacity, w - 1, -1):
+        print(f"\tj = {j}")
+        dp[j] = max(dp[j], dp[j - w] + w)
+# return dp[maxCapacity]
+print(dp[maxCapacity])
