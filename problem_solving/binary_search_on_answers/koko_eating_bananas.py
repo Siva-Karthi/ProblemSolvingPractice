@@ -1,4 +1,7 @@
 """
+
+https://gemini.google.com/share/f90d71799243
+
 piles = [2,5,7]
 h = 6
 k = ? (eating k per hour)
