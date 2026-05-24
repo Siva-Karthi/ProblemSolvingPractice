@@ -4,6 +4,7 @@ Here are two classic problems for each category, ranging from **"Standard"** to 
 
 ---
 
+
 ## 1. 0/1 Knapsack (Prefix + Capacity)
 
 * **Subset Sum:** Given a set of non-negative integers and a value `S`, determine if there is a subset that adds up to exactly `S`.
@@ -55,7 +56,19 @@ min palindromic cut
 * **Can I Win?:** Two players take turns picking integers from `1` to `N` to reach a total. Using a bitmask to track “used” numbers, can the first player force a win?
 * **Smallest Sufficient Team:** Given a list of required skills and a list of people with skills, find the smallest team that covers all required skills using a bitmask for the skills.
 
+
 ---
+
+
+## 8. Number of ways
+* ** number of ways to reach end in matrix - unique paths - https://leetcode.com/problems/unique-paths/
+* ** number ways to climb stairs
+    https://leetcode.com/problems/climbing-stairs/submissions/2011635217/
+* ** number ways to change coin
+    https://leetcode.com/problems/coin-change/
+* ** number of ways for target sum
+    https://leetcode.com/problems/target-sum/description/
+
 
 ## Pro-Tip for Practice
 

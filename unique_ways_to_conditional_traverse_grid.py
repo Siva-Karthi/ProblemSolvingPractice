@@ -14,13 +14,38 @@ Output: 28
 
 Example 2:
 
+
 Input: m = 3, n = 2
+
+      0   1
+    +---+---+
+0   | X |   |
+    +---+---+
+1   |   |   |
+    +---+---+
+2   |   | T |
+    +---+---+
+
+
+      0   1
+    +---+---+
+0   | 1 | 1 |
+    +---+---+
+1   | 1 | 2 |
+    +---+---+
+2   | 1 | 3 |
+    +---+---+
+
 Output: 3
 Explanation:
 From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
 1. Right -> Down -> Down
 2. Down -> Down -> Right
 3. Down -> Right -> Down
+
+
+
+
 Example 3:
 
 Input: m = 7, n = 3

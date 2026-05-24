@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="tried the min sliding window">
+      <change afterPath="$PROJECT_DIR$/Interviews/load_distribution_right_to_left_visa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/239-sliding-window-maximum-variation.py" beforeDir="false" afterPath="$PROJECT_DIR$/239-sliding-window-maximum-variation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence/max_weight_for_barbell.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence/max_weight_for_barbell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique_ways_to_conditional_traverse_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/unique_ways_to_conditional_traverse_grid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +50,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/sivas/PycharmProjects/ProblemSolvingPractice",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sivas/PycharmProjects/ProblemSolvingPractice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -72,7 +75,7 @@
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for dynamic_programming">
+  <component name="RunManager">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -495,14 +498,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00053" summary="practised sum of subsets kadanes algo">
-      <option name="closed" value="true" />
-      <created>1768132853951</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1768132853951</updated>
-    </task>
     <task id="LOCAL-00054" summary="practised longest palindromikc sub sequence">
       <option name="closed" value="true" />
       <created>1768154389438</created>
@@ -679,7 +674,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779612623189</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="tried the min sliding window">
+      <option name="closed" value="true" />
+      <created>1779614573102</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1779614573103</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
