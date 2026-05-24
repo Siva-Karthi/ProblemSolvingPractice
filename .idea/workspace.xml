@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="practiced MCM style DP - burst baloons">
-      <change afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/stick_min_cuts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/two_sum_index.py" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="time limit exceed fixed">
+      <change afterPath="$PROJECT_DIR$/239-sliding-window-maximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/992_Subarrays_with_K_Different_Integers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/smallest_range_covering_elements_from_k_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interviews/google/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/binary_search_on_answers/split_array_largest_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/graph/course_schedule_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/grid/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/sub_string_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/sub_string_palindromes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/dynamic_programming/practise" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell_2026_revision.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/max_weight_for_barbell_2026_revision.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interviews/google_word_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/google/google_word_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving/grid/shortest_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/grid/shortest_bridge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +41,9 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/typing.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2023.2/python_stubs/-1550579681/_collections.py" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharmCE2023.2/python_stubs/1828254783/builtins.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/venv/lib/python3.9/site-packages/matplotlib/pyplot.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,11 +75,11 @@
       <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Interviews/google" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval" />
-      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/3_subsequence" />
     </key>
   </component>
   <component name="RunManager">
@@ -258,7 +265,6 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/Python" />
-      <option name="SDK_NAME" value="Python 3.9 (ProblemSolvingPractice)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -499,54 +505,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00044" summary="practiced dp problem - added new problems rotate array k times and max profit with k transations">
-      <option name="closed" value="true" />
-      <created>1745503829104</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1745503829104</updated>
-    </task>
-    <task id="LOCAL-00045" summary="practiced dp problem - palindrom partitioning min cuts">
-      <option name="closed" value="true" />
-      <created>1745923113575</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1745923113575</updated>
-    </task>
-    <task id="LOCAL-00046" summary="practiced a scheduler using min heap">
-      <option name="closed" value="true" />
-      <created>1746605292510</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1746605292510</updated>
-    </task>
-    <task id="LOCAL-00047" summary="practiced rain water trapping">
-      <option name="closed" value="true" />
-      <created>1753614099113</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1753614099113</updated>
-    </task>
-    <task id="LOCAL-00048" summary="worked on few problems">
-      <option name="closed" value="true" />
-      <created>1760519609977</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1760519609977</updated>
-    </task>
-    <task id="LOCAL-00049" summary="worked on max traveral and house robber 1 which is sequence dp (with condition)">
-      <option name="closed" value="true" />
-      <created>1767985845676</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1767985845677</updated>
-    </task>
     <task id="LOCAL-00050" summary="practised sum of subsets kadanes algo">
       <option name="closed" value="true" />
       <created>1768124698240</created>
@@ -683,7 +641,55 @@
       <option name="project" value="LOCAL" />
       <updated>1775240894957</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="practised two sum index and stick min cuts">
+      <option name="closed" value="true" />
+      <created>1776000555751</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1776000555752</updated>
+    </task>
+    <task id="LOCAL-00068" summary="practised duplicate from array in linear time and const space">
+      <option name="closed" value="true" />
+      <created>1777398160790</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1777398160790</updated>
+    </task>
+    <task id="LOCAL-00069" summary="practised binary search on answers">
+      <option name="closed" value="true" />
+      <created>1777489371427</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1777489371427</updated>
+    </task>
+    <task id="LOCAL-00070" summary="practised binary search on answers">
+      <option name="closed" value="true" />
+      <created>1777489581909</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1777489581909</updated>
+    </task>
+    <task id="LOCAL-00071" summary="practised shortest bridge amazon interview question">
+      <option name="closed" value="true" />
+      <created>1778237619403</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1778237619403</updated>
+    </task>
+    <task id="LOCAL-00072" summary="practised shortest bridge amazon interview question">
+      <option name="closed" value="true" />
+      <created>1778237638975</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1778237638975</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -827,11 +833,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practised fractional knapsack using greedy" />
-    <MESSAGE value="practiced str problems - sub palindromes" />
-    <MESSAGE value="practiced dp problem - sub palindromes" />
-    <MESSAGE value="practiced dp problem - max weights can be added to barbell with max capacity" />
-    <MESSAGE value="practiced dp problem - added new problems rotate array k times and max profit with k transations" />
     <MESSAGE value="practiced dp problem - practised new problems levenshtein distance and min no of ways to change coin &#10;&#10;Signed-off-by: sivas &lt;sivasubramani.612@gmail.com&gt;" />
     <MESSAGE value="practiced dp problem - palindrom partitioning min cuts" />
     <MESSAGE value="practiced a scheduler using min heap" />
@@ -852,7 +853,12 @@
     <MESSAGE value="practicing MCM style DP" />
     <MESSAGE value="practiced MCM style DP" />
     <MESSAGE value="practiced MCM style DP - burst baloons" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced MCM style DP - burst baloons" />
+    <MESSAGE value="practised two sum index and stick min cuts" />
+    <MESSAGE value="practised duplicate from array in linear time and const space" />
+    <MESSAGE value="practised binary search on answers" />
+    <MESSAGE value="practised shortest bridge amazon interview question" />
+    <MESSAGE value="time limit exceed fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="time limit exceed fixed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -884,6 +890,31 @@
           <url>file://$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval/longest_polindramic_subsequences.py</url>
           <line>48</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/graph/course_schedule_1.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problem_solving/graph/course_schedule_1.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Interviews/Amazon/smallest_range_covering_elements_from_k_lists.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/239-sliding-window-maximum.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/239-sliding-window-maximum.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

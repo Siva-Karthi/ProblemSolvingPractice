@@ -65,7 +65,6 @@
 #
 #
 # """
-from pprint import pprint
 from typing import List
 
 
@@ -81,13 +80,9 @@ class Solution:
             if island_one:
                 break
         # get the island one
-        print("island_one", island_one)
         visited = {}
-        pprint(grid)
-        self.bfs(n, island_one, grid, visited)
 
-        print("island_one", island_one, visited)
-        pprint(grid)
+        self.bfs(n, island_one, grid, visited)
 
         steps = 0
         dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -95,12 +90,9 @@ class Solution:
             island_one[i] = (island_one[i][0], island_one[i][1], 0)
 
         while island_one:
-            print("island_one", island_one)
             r, c, step = island_one.pop(0)
-            print("r, c, step ", r, c, step)
             visited[(r, c)] = True
             for dr, dc in dirs:
-                print(r, dr)
                 nr = r + dr
                 nc = c + dc
 
@@ -120,7 +112,6 @@ class Solution:
             grid[r][c] = 2
             # left
             try:
-                print("check left", r - 1, c)
                 if (0 <= r - 1 <= n - 1) and (r - 1 >= 0) and (c <= n - 1) and (r - 1, c) not in visited and \
                         grid[r - 1][c] == 1:
                     child.append((r - 1, c))
@@ -129,7 +120,6 @@ class Solution:
 
             # right
             try:
-                print("check right", r + 1, c)
                 if (0 <= r + 1 <= n - 1) and (r + 1, c) not in visited and grid[r + 1][c] == 1:
                     child.append((r + 1, c))
             except IndexError as e:
@@ -137,7 +127,6 @@ class Solution:
 
             # up
             try:
-                print("check up", r, c - 1)
                 if (0 <= c - 1 <= n - 1) and (r, c - 1) not in visited and grid[r][c - 1] == 1:
                     child.append((r, c - 1))
             except IndexError as e:
@@ -145,7 +134,6 @@ class Solution:
 
             # down
             try:
-                print("check down", r, c + 1)
                 if (0 <= c + 1 <= n - 1) and (r, c + 1) not in visited and grid[r][c + 1] == 1:
                     child.append((r, c + 1))
             except IndexError as e:
@@ -186,7 +174,7 @@ class Solution:
 #                 r, c = queue.popleft()
 #
 #                 for dr, dc in directions:
-#
+# arr
 #                     nr = r + dr
 #                     nc = c + dc
 #
