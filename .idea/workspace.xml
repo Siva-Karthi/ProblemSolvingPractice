@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="time limit exceed fixed">
-      <change afterPath="$PROJECT_DIR$/239-sliding-window-maximum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/992_Subarrays_with_K_Different_Integers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interviews/Amazon/smallest_range_covering_elements_from_k_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interviews/google/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/binary_search_on_answers/split_array_largest_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/graph/course_schedule_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem_solving/grid/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="latest code practices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interviews/google_word_split.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interviews/google/google_word_split.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving/grid/shortest_bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving/grid/shortest_bridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/239-sliding-window-maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/239-sliding-window-maximum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sivas/PycharmProjects/ProblemSolvingPractice/problem_solving&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sivas/PycharmProjects/ProblemSolvingPractice",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/problem_solving" />
       <recent name="$PROJECT_DIR$/rain_water_trapping" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/shortest_path" />
       <recent name="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
-      <recent name="$PROJECT_DIR$/problem_solving/algo_expert/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Interviews/google" />
@@ -505,14 +495,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00050" summary="practised sum of subsets kadanes algo">
-      <option name="closed" value="true" />
-      <created>1768124698240</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1768124698241</updated>
-    </task>
     <task id="LOCAL-00051" summary="practised sum of subsets kadanes algo">
       <option name="closed" value="true" />
       <created>1768127679663</created>
@@ -689,7 +671,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778237638975</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="latest code practices">
+      <option name="closed" value="true" />
+      <created>1779611801498</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1779611801498</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -833,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practiced dp problem - practised new problems levenshtein distance and min no of ways to change coin &#10;&#10;Signed-off-by: sivas &lt;sivasubramani.612@gmail.com&gt;" />
     <MESSAGE value="practiced dp problem - palindrom partitioning min cuts" />
     <MESSAGE value="practiced a scheduler using min heap" />
     <MESSAGE value="practiced rain water trapping" />
@@ -858,7 +847,8 @@
     <MESSAGE value="practised binary search on answers" />
     <MESSAGE value="practised shortest bridge amazon interview question" />
     <MESSAGE value="time limit exceed fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="time limit exceed fixed" />
+    <MESSAGE value="latest code practices" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest code practices" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -903,17 +893,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Interviews/Amazon/smallest_range_covering_elements_from_k_lists.py</url>
-          <line>50</line>
+          <line>47</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/239-sliding-window-maximum.py</url>
-          <line>13</line>
+          <line>10</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/239-sliding-window-maximum.py</url>
-          <line>72</line>
+          <line>70</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>

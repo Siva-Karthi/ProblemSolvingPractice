@@ -51,7 +51,6 @@ class Solution:
         res = []
 
         for i in range(len(nums)):
-            print(dq, [nums[i] for i in dq])
             # remove out-of-window
             while dq and dq[0] <= i - k:
                 dq.popleft()
