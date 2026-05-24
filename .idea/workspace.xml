@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="latest code practices">
+    <list default="true" id="25cd8e1c-9207-4551-9674-c28d07f1a952" name="Default Changelist" comment="tried the min sliding window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/239-sliding-window-maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/239-sliding-window-maximum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/239-sliding-window-maximum-variation.py" beforeDir="false" afterPath="$PROJECT_DIR$/239-sliding-window-maximum-variation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +65,14 @@
       <recent name="$PROJECT_DIR$/Interviews/Amazon/minimum_spanning_tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/Interviews/google" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/6_Partition_dp_MCM_style_dp_(split_with_interval)" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack/5_count_dp" />
       <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/2_sequence_or_prefix_dp_or_0_1_knapsack" />
-      <recent name="$PROJECT_DIR$/problem_solving/dynamic_programming/4_range_or_interval" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for dynamic_programming">
     <configuration name="articulation" type="PythonConfigurationType" factoryName="Python">
       <module name="DataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -495,22 +495,6 @@
       <option name="project" value="LOCAL" />
       <updated>1603624354179</updated>
     </task>
-    <task id="LOCAL-00051" summary="practised sum of subsets kadanes algo">
-      <option name="closed" value="true" />
-      <created>1768127679663</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1768127679663</updated>
-    </task>
-    <task id="LOCAL-00052" summary="practised sum of subsets kadanes algo">
-      <option name="closed" value="true" />
-      <created>1768132845000</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1768132845001</updated>
-    </task>
     <task id="LOCAL-00053" summary="practised sum of subsets kadanes algo">
       <option name="closed" value="true" />
       <created>1768132853951</created>
@@ -679,7 +663,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779611801498</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="tried the min sliding window">
+      <option name="closed" value="true" />
+      <created>1779612611759</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1779612611760</updated>
+    </task>
+    <task id="LOCAL-00075" summary="tried the min sliding window">
+      <option name="closed" value="true" />
+      <created>1779612623189</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1779612623189</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -823,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="practiced dp problem - palindrom partitioning min cuts" />
     <MESSAGE value="practiced a scheduler using min heap" />
     <MESSAGE value="practiced rain water trapping" />
     <MESSAGE value="worked on few problems" />
@@ -848,7 +847,8 @@
     <MESSAGE value="practised shortest bridge amazon interview question" />
     <MESSAGE value="time limit exceed fixed" />
     <MESSAGE value="latest code practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest code practices" />
+    <MESSAGE value="tried the min sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried the min sliding window" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
